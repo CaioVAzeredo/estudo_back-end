@@ -11,7 +11,8 @@ cliente.enderecos = [
         numero: 1233,
         apartamento: false,
         complemento: 'casa: 20'
-    }
+    } 
+    
 ]
 
 function ligaParaCliente(telefoneComercial, telefoneResidencial) {
