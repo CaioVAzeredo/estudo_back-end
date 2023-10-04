@@ -1,4 +1,4 @@
-const clientes = require("./cliente.json")
+const clientes = require("./AtividadeCliente.json")
 
 function clienteQueNaoTemComplemento(clientes) {
     return clientes.filter((cliente) => {
