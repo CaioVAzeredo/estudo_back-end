@@ -1,4 +1,3 @@
-const livros = require('./livros')
 
 function menorValor(arrProduto, posicaoInicial){
 
@@ -13,4 +12,4 @@ function menorValor(arrProduto, posicaoInicial){
 }
 
 
-module.exports = menorValor()
+module.exports = menorValor
