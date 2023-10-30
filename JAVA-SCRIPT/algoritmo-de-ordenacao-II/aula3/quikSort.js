@@ -8,8 +8,8 @@ function quickSort(array, esquerda, direita) {
         if(esquerda < indiceAtual - 1){
             quickSort(array, esquerda, indiceAtual - 1)
         }
-        if(esquerda < direita){
-            quickSort(array, indiceAtual + 1, direita)
+        if(indiceAtual < direita){
+            quickSort(array, indiceAtual, direita)
         }
     }
 
@@ -27,7 +27,7 @@ function particiona(array, esquerda, direita) {
             atualEsquerda++;
         }
 
-        while(array[atualDireita].preco < pivor.preco){
+        while(array[atualDireita].preco > pivor.preco){
             atualDireita--
         }
 
