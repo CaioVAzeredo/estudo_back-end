@@ -1,8 +1,28 @@
+import fs from 'fs';
 import chalk from 'chalk';
 
-console.log(chalk.blue('olá, mundo!'));
+function trataErro(erro) {
+    console.log(erro);
+    throw new Error(chalk.red(erro.code, 'Nao há arquivo no diretório'));
+
+}
+
+//async/await
+
+function pegaArquivo(caminhoDoArquivo){
+    
+}
 
 
-console.log('São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input), a partir do objeto [DataTransfer](https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer) utilizado em operações de arrastar e');
-console.log('São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input), a partir do objeto [DataTransfer](https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer) utilizado em operações de arrastar e');
-console.log('São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input), a partir do objeto [DataTransfer](https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer) utilizado em operações de arrastar e');
+//promises com then()
+
+/* function pegaArquivo(caminhoDoArquivo) {
+    const encoding = 'utf-8';
+    fs.promises
+        .readFile(caminhoDoArquivo, encoding)
+        .then((texto) => console.log(chalk.green(texto)))
+        .catch(trataErro);
+} */
+
+
+pegaArquivo('./arquivos/');
