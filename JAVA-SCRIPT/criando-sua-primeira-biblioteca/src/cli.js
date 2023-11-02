@@ -31,13 +31,19 @@ async function processaTexto(argumento) {
     }
 }
 
-function imprimeLista(nomeDeArquivo = '', valida, resultado) {
+async function imprimeLista(valida, resultado, nomeDeArquivo = '') {
 
     if (valida) {
-        console.log(chalk.yellow(`Lista validada`), listaValidada(resultado));
+        console.log(
+            chalk.yellow(`Lista validada`),
+           await listaValidada(resultado)
+        );
 
     } else {
-        console.log(chalk.yellow(`Lista de links`), chalk.black.bgGreen(nomeDeArquivo), resultado);
+        console.log(
+            chalk.yellow(`Lista de links`),
+            chalk.black.bgGreen(nomeDeArquivo),
+            resultado);
     }
 }
 
