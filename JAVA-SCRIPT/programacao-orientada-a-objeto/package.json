@@ -1,0 +1,14 @@
+{
+  "name": "programacao-orientada-a-objeto",
+  "version": "1.0.0",
+  "description": "",
+  "_comentario1": "O modo type é para avisar o js que é para fazer importação e importação de módulos atravez do export default",
+  "type": "module",
+  "main": "new.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
