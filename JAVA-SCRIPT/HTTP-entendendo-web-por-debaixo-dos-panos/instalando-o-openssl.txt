@@ -1,0 +1,11 @@
+
+-Baixe o programa Win64 OpenSSL v3.1.0 Light EXE(https://slproweb.com/products/Win32OpenSSL.html);
+-Execute o instalador baixado:
+		Note que umas das telas irá mostrar o diretório de instalação; anote esse diretório. Por exemplo, no meu caso é C:\Program Files\OpenSSL-Win64.
+-Após a instalação, abra o Painel de Controle e pesquise por variáveis de ambiente;
+-Selecione a opção Editar as variáveis de ambiente para sua conta;
+-Na caixa Variáveis de usuário, clique na variável Path, em seguida em Editar;
+-Na nova janela que abrirá, clique em Novo e cole o caminho para o binário do openssl. Por exemplo, no meu caso é C:\Program Files\OpenSSL-Win64\bin;
+		Note que precisamos adicionar o diretório bin no final.
+-Clique em Ok para fechar as janelas e abra uma nova janela do cmd;
+-Digite openssl version para verificar que funcionou.

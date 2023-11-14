@@ -1,0 +1,6 @@
+
+-----------curso-react-alurabooks------------
+npm start
+
+--------------api-alurabooks-----------------
+npm run start-auth
