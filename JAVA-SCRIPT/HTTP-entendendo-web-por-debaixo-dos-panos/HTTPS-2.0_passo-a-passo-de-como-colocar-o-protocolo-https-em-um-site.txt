@@ -1,0 +1,97 @@
+aprendemos sobre os parâmetros GET, POST e REQUEST do HTTP e o deixamos mais seguro.
+
+Porém, tudo o que desenvolvemos passa por iterações e melhorias. Nesta aula, conheceremos as limitações do HTTP na versão 1.1 e as soluções apresentadas na versão número 2.
+
+Nas camadas da Internet, temos as Física na base e a Enlace acima que é nosso wi-fi por exemplo. Depois, temos a rede que trata dos endereços e IPs, além das camadas de Transporte e Aplicação.
+
+Já conhecemos bastante esta última, afinal é onde acontece o HTTP e o HTTPS, browser, servidores e tudo o que usamos até agora.
+
+Nesta aula, abordaremos mais a cama de Transporte que pega as mensagens do HTTP e leva do servidor ao cliente.
+
+Aprendemos que tanto o HTTP/1.1 quanto o HTTP/2 trabalham em cima do TCP.
+
+As maiores diferenças entre esses dois protocolos é que o primeiro deixa a desejar as requisições sequenciais, ou seja, cada vez que fazemos um REQUEST, temos que esperar terminar para começar o outro no contexto de uma conexão TCP, que é o canal por onde as mensagens passam.
+
+Conseguiremos verificar que não acontecem ao mesmo tempo abrindo a interface do nosso debugger clicando com o botão direito sobre a página inicial do AluraBooks para selecionar "Inspect".
+
+Clicando na aba "Network", atualizaremos a página para vermos as diversas requisições sendo feitas. clicando em "localhost" na lista lateral esquerda da aba, abriremos os detalhes e veremos mais diversas imagens em sequência.
+
+Conforme avançamos pelos itens que tiveram requests, perceberemos alterações nos destaques da parte superior. Cada uma das linhas horizontais significa uma conexão TCP.
+
+No HTTP/1.1, temos que esperar cada requisição ao terminar para fazermos outras, então o navegador cria várias conexões em paralelo para permitir que consigamos fazer requests simultâneas.
+
+Mas pode funcionar melhor, então iremos inspecionar o HTTP/2 para entendermos a solução de multiplexação em que pega requisições que acontecem em paralelo e juntá-las em uma mesma conexão TCP, melhorando a performance da aplicação.
+
+Para isso, habilitaremos o HTTPS, pois como o HTTP/2 é mais moderno, a segurança está embutida. Usaremos o comando que já conhecemos do ssl para criarmos um certificado e uma chave.
+
+openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crtCOPIAR CÓDIGO
+Colaremos no Terminal e executaremos.
+
+Em seguida, nos pedirá os dados do certificado, e completaremos apenas com BR mesmo. se digitarmos ls em seguida, veremos o server.crt e o server.key.
+
+Além de criarmos a identidade do certificado, instalaremos a biblioteca spdy que nos permitirá usar o HTTP/2.
+
+npm i spdyCOPIAR CÓDIGO
+Depois, geraremos uma pasta "build" atualizada em nossa aplicação, que é como se empacotássemos a aplicação para produção.
+
+Para isso, aplicaremos o comando npm run build e aguardaremos a compactação na pasta com tudo que precisamos para o deploy.
+
+Em seguida, criaremos o servidor que serve o conteúdo da pasta "build" usando HTTP/2.
+
+Abrindo o VSCode, veremos a pasta "curso-react-alurabooks" importada na lista lateral esquerda, clicaremos com o botão direito do mouse para criarmos o novo arquivo server_http2.js.
+
+O conteúdo será:
+
+--------------------------------------------------------
+
+const spdy = require("spdy")
+const express = require("express")
+const fs = require("fs")
+
+const app = express()
+
+app.use(express.static("build"))
+
+spdy.createServer(
+    {
+        key: fs.readFileSync("./server.key"),
+        cert: fs.readFileSync("./server.crt")
+    },
+    app
+).listen(3002, (err) => {
+    if(err){
+        throw new Error(err)
+    }
+    console.log("Listening on port 3002")
+})
+
+--------------------------------------------------------
+
+Diferente de anteriormente, desta vez estaremos passando a pasta "build" como parâmetro para dizer que será a partir dele que nossos arquivos serão servidos.
+
+Por fim, o mais importante é o spdy que permitirá servir conteúdos através do protocolo HTTP/2.
+
+Salvaremos e voltaremos ao Terminal para executarmos o arquivo com ls e node server_http2.js. Depois, abriremos o browser com uma nova aba no endereço "https://localhost:3002".
+
+Pode ser que recebamos um alerta, afinal nosso certificado não é válido para proteger um site depois que já estiver em produção. Iremos ignorar e prosseguir.
+
+Na página inicial do ALuraBooks, inspecionaremos o código na aba "Network" e veremos os títulos dos conteúdos que estão aparecendo em cada coluna.
+
+Clicando com o botão direito sobre "Status", selecionaremos "Protocol" para habilitarmos o tipo de protocolo usado. Ao recarregarmos a página, veremos que será preenchida por "h2".
+
+Observando a linha do tempo acima, veremos que está bem diferente da que era apresentada usando HTTP/1.1 originalmente. Ou seja, melhoramos a performance.
+
+Portanto, usando HTTP/2, conseguiremos multiplexar e fazer várias requisições ao mesmo tempo dentro de uma ou pelo menos uma quantidade menor de conexões TCP, economizando recursos e deixando mais rápido.
+
+Como vimos no formato das mensagens, o HTTP/1.1 utiliza cabeçalhos textuais como Accept-Ranges: bytes, enquanto o HTTP/2 tem o mesmo cabeçalho porém com as letras minúsculas apenas.
+
+Isso acontece porque no HTTP/2 temos o mecanismo de compactação de cabeçalho, em que o que era legível em formato de texto passa por um algoritmo de compressão e se torna um cabeçalho binário que pode ser enviado pela rede e economizar recursos.
+
+Por fim, a última diferença entre os protocolos é que o HTTP/1.1 possui request obrigatório, então sempre que o cliente quer obter dados, precisará fazer uma requisição ao servidor, afinal é o que aprendemos sobre arquitetura do HTTP.
+
+Porém, observando nosso projeto novamente na tela de debug, há muitas informações retidas, então sempre que formos fazer um request pelo "localhost", com certeza precisaremos de todas as imagens que fazem parte do front-end.
+
+Mas o servidor poderia já saber isso e ser mais "proativo" e mandar as informações ao cliente. É exatamente isso que o HTTP/2 faz através da feature chamada server push, que deixa o servidor mais "inteligente".
+
+Como a web não pára de evoluir, a seguir conhecemos a versão mais nova do HTTP.
+
