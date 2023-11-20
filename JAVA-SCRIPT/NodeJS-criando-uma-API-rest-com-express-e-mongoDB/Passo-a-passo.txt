@@ -1,0 +1,5 @@
+- antes devemoos baixar os arquivos de configuração com o comando: npm init.
+
+- baixar biblioteca para escutar as alterações feitas na API. Na pasta, abra no cmd e baixe com o comando: npm install nodemon@3.0.1
+
+- em seguida vá no arquivo package.json e em script adicione: "dev": "nodemon server.js"
