@@ -1,3 +1,4 @@
+-abrir a pasta (curso-react-alurabooks) no cmd;
 aprendemos sobre os parâmetros GET, POST e REQUEST do HTTP e o deixamos mais seguro.
 
 Porém, tudo o que desenvolvemos passa por iterações e melhorias. Nesta aula, conheceremos as limitações do HTTP na versão 1.1 e as soluções apresentadas na versão número 2.
@@ -94,4 +95,7 @@ Porém, observando nosso projeto novamente na tela de debug, há muitas informa�
 Mas o servidor poderia já saber isso e ser mais "proativo" e mandar as informações ao cliente. É exatamente isso que o HTTP/2 faz através da feature chamada server push, que deixa o servidor mais "inteligente".
 
 Como a web não pára de evoluir, a seguir conhecemos a versão mais nova do HTTP.
+
+
+por fim, execute o arquivo serverHTTP2.js com node
 
