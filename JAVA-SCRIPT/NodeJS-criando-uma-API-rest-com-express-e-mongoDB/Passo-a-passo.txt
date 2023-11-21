@@ -3,3 +3,7 @@
 - baixar biblioteca para escutar as alterações feitas na API. Na pasta, abra no cmd e baixe com o comando: npm install nodemon@3.0.1
 
 - em seguida vá no arquivo package.json e em script adicione: "dev": "nodemon server.js"
+
+
+----------------------
+- instalação do express: npm install express@4.18.1
