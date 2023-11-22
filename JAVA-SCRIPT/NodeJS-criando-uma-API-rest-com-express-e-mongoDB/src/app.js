@@ -1,10 +1,13 @@
 import express from "express";
+import conectaNaDataBase from "./config/dbConnect.js";
 
 // get: pegar
 // post: criar
 // put: alterar 
 
 //Metodo CRUD = Create, Read, Update, Delete
+
+
 
 const app = express();
 app.use(express.json()); //middleware -> ter acesso as requisições no momento em que elas estao sendo feitas 
