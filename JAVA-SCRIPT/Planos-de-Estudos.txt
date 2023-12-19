@@ -1,23 +1,23 @@
 ---------------------------------back-end------------------------------------
 ------------------------------------JS---------------------------------------
--Aprenda a programar em JavaScript com foco no back-end *
--APIs com Node.js e Express 
--Autenticação, testes e segurança em Node.js
--Aprofunde em Node.js com arquitetura Serverless
--Nest.js: aplicações Node.js eficientes e escaláveis do lado do servidor
--Full stack JavaScript: crie um projeto com React e Node.js
+- Aprenda a programar em JavaScript com foco no back-end 7*
+- APIs com Node.js e Express 7
+- Autenticação, testes e segurança em Node.js 5
+- Aprofunde em Node.js com arquitetura Serverless 3
+- Nest.js: aplicações Node.js eficientes e escaláveis do lado do servidor 4
+- Full stack JavaScript: crie um projeto com React e Node.js 3
 ------------------------------------BD---------------------------------------
--SQL com MySQL Server da Oracle 
--SQL com PostgreSQL
--MongoDB
+- SQL com MySQL Server da Oracle 
+- SQL com PostgreSQL
+- MongoDB
 ------------------------------------PY---------------------------------------
--Aprenda a programar em Python com Orientação a Objetos
--Começando com Flask: framework web de Python
--Django: crie aplicações em Python
--Django REST APIs: crie aplicações REST em Python
+- Aprenda a programar em Python com Orientação a Objetos
+- Começando com Flask: framework web de Python
+- Django: crie aplicações em Python
+- Django REST APIs: crie aplicações REST em Python
 ------------------------------------PHP--------------------------------------
--Aprofunde em PHP com arquitetura e padrões de projeto
--Aprenda a programar em PHP
--Aprofunde em PHP com programação funcional, assíncrona e metaprogramação
--Boas práticas em PHP
--PHP Web: crie aplicações web em PHP
+- Aprofunde em PHP com arquitetura e padrões de projeto
+- Aprenda a programar em PHP
+- Aprofunde em PHP com programação funcional, assíncrona e metaprogramação
+- Boas práticas em PHP
+- PHP Web: crie aplicações web em PHP
