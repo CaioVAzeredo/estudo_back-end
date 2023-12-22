@@ -1,4 +1,5 @@
 import livro from "../models/livro.js"
+import { autor } from "../models/Autor.js";
 
 class livroController {
 
@@ -26,9 +27,14 @@ class livroController {
     }
 
     static async cadastroLivro(req, res) {
+        const novoLivro = req.body //body é o corpo da requisição 
         try {
-            const novoLivro = await livro.create(req.body) //body é o corpo da requisição 
-            res.status(201).json({ messe: "criado com sucesso", livro: novoLivro });
+            const autorEncotrado = await autor.findById(novoLivro.autor);
+            const livroCompleto = { ...novoLivro, autor: { ...autorEncotrado._doc } }
+            const livroCriado = await livro.create(livroCompleto);
+
+
+            res.status(201).json({ messe: "criado com sucesso", livro: livroCriado });
         } catch (erro) {
             res.status(500).json({ messe: `${erro.message} - falha ao cadastrar livro` })
         }
@@ -56,6 +62,16 @@ class livroController {
             res.status(500).json({ message: `${erro.message} - não foi possivel excluir o livro` })
         }
 
+    }
+
+    static async listarLivrosPorEditora(req, res) {
+        const editora = req.query.editora;
+        try {
+            const livrosPorEditora = await livro.find({ editora: editora }); //chave se refere a propriedade editora e o valor é a variavel que está guardando a informação que vai chegar via rota.
+            res.status(200).json(livrosPorEditora);
+        } catch (erro) {
+            res.status(500).json({ message: `${erro.message} - falha na busca` });
+        }
     }
 }
 

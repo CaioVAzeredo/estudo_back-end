@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { autorSchema } from "./Autor.js"
 
 const livroSchema = new mongoose.Schema({ //Schema é um objeto de configuração que define a estrutura e as propriedades de um documento.
 
@@ -7,7 +8,7 @@ const livroSchema = new mongoose.Schema({ //Schema é um objeto de configuraçã
     editora: { type: String },
     preco: { type: Number },
     paginas: { type: Number },
-
+    autor: autorSchema
 }, { versionKey: false });
 
 const livro = mongoose.model("livros", livroSchema);

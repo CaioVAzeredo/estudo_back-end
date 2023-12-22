@@ -15,7 +15,7 @@ conexao.on("error", (erro) => { //esperar algum tipo de evento de erro da conexa
 })
 
 conexao.once("open", () => {
-console.log("Conexao com o banco feita com sucesso");
+    console.log("Conexao com o banco feita com sucesso");
 }) //espera de um evento de conexao feita com sucesso 
 /* -------------------------------------------- */
 
