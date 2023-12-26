@@ -1,0 +1,5 @@
+- npm install (package.json)
+- mongoose
+- nodemon
+- dotenv
+- eslint
