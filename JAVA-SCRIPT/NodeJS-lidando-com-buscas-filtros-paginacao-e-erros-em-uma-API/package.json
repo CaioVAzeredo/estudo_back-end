@@ -13,11 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^3.0.1"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^4.17.3",
+    "express": "^4.18.1",
+    "mongodb": "^6.3.0",
     "mongoose": "^6.2.6"
   }
 }
