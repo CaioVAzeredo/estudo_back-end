@@ -5,11 +5,11 @@ class LivroController {
 
   static listarLivros = async (req, res, next) => {
     try {
-      const livrosResultado = await livros.find()
-        .populate("autor")
-        .exec();
+      const buscaLivros =  livros.find();
 
-      res.status(200).json(livrosResultado);
+      req.resultado = buscaLivros
+
+      next();
     } catch (erro) {
       next(erro);
     }
@@ -20,8 +20,7 @@ class LivroController {
       const id = req.params.id;
 
       const livroResultados = await livros.findById(id)
-        .populate("autor", "nome")
-        .exec();
+      .populate("autor")
 
       if (livroResultados !== null) {
         res.status(200).send(livroResultados);
@@ -81,16 +80,18 @@ class LivroController {
   static listarLivroPorFiltro = async (req, res, next) => {
     try {
       const busca = await processaBusca(req.query);
-      
+
       if (busca !== null) {
-        const livrosResultado = await livros
+        const livrosResultado = livros
           .find(busca) // serve para pesquisar documentos em uma coleção
           .populate("autor");//é usado para carregar os dados do documento relacionado ao autor do livro.
-        res.status(200).send(livrosResultado);
+
+        req.resultado = livrosResultado
+        next();
+        
       } else {
         res.status(200).send([]);
       }
-
 
     } catch (erro) {
       next(erro);
@@ -103,9 +104,9 @@ async function processaBusca(parametro) {
 
   let busca = {};
 
-  if (editora) busca.editora = editora;
+  if (editora) busca.editora = { $regex: editora, $options: "i" };
   /* ---------------------------------------- */
-  if (titulo) busca.titulo = { $regex: titulo, $options: "i" };
+  if (titulo) busca.titulo = { $regex: titulo, $options: "i" }; // /titulo/i 
   /* ---------------------------------------- */
   if (minPaginas || maxPaginas) busca.numeroPaginas = {}
   /* ---------------------------------------- */
@@ -115,7 +116,7 @@ async function processaBusca(parametro) {
   if (maxPaginas) busca.numeroPaginas.$lte = maxPaginas;
   /* ---------------------------------------- */
   if (nomeAutor) {
-    const autor = await autores.findOne({ nome: nomeAutor }); //buscando dentro do banco de autores o nome.
+    const autor = await autores.findOne({ nome: nomeAutor }); //buscando dentro do banco de autores o nome de autor.
     if (autor !== null) {
       busca.autor = autor._id;//"_id" é por estar com salvo no banco de dados dessa forma
     } else {
