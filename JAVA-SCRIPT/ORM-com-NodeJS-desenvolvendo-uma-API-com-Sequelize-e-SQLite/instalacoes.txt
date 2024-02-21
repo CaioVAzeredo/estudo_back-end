@@ -4,6 +4,8 @@
 ------------- Criando pessoa ---------------- 
 - npx sequelize-cli model:generate --name Pessoa --attributes nome:string,email:string,cpf:string,ativo:boolean,role:string - (criação do pessoa.js );
 
+----------------------------------------------
+
 - npx sequelize-cli db:migrate (aplica as migrações no banco de dados);
 
 -npx sequelize-cli seed:generate --name demao-pessoa (cria um arquivo na pasta seeders)
@@ -18,3 +20,17 @@
 
 ----------- Criando Matricula -------------
 - npx sequelize-cli model:generate --name Matricula --attributes status:string
+
+----------- Atualizar Banco de Dados --------
+- npx sequelize-cli db:migrate
+
+------------ criando os seeds ---------------
+
+- npx sequelize-cli seed:generate --name demo-categorias
+- npx sequelize-cli seed:generate --name demo-cursos
+- npx sequelize-cli seed:generate --name demo-matriculas
+
+------------ adicionando alterações no banco de dados --------------- 
+    alterações devem ser feitas na mesma ordem da criação dos seeds
+
+npx sequelize-cli db:seed --seed (deve ser substituido pelo nome do arquivo. ex: 20240219172056-demo-matriculas.js)
