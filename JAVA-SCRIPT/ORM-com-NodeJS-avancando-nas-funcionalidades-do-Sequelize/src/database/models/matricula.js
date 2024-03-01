@@ -7,17 +7,19 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       Matricula.belongsTo(models.Pessoa, {
         foreignKey: 'estudante_id'
-      })
+      });
       Matricula.belongsTo(models.Curso, {
         foreignKey: 'curso_id'
-      })
+      });
     }
   }
   Matricula.init({
     status: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Matricula',    tableName: 'matriculas'
+    modelName: 'Matricula',
+    tableName: 'matriculas',
+    paranoid: true, // config de soft delete
   });
   return Matricula;
 };

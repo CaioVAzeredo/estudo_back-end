@@ -1,6 +1,3 @@
-// associação: https://sequelize.org/docs/v6/core-concepts/assocs/
-// hasMany: um para muitos
-
 'use strict';
 const {
   Model
@@ -10,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       Categoria.hasMany(models.Curso, {
         foreignKey: 'categoria_id'
-      })
+      });
     }
   }
   Categoria.init({
@@ -18,7 +15,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Categoria',
-    tableName: 'categorias'
+    tableName: 'categorias',
+    paranoid: true, // config de soft delete
   });
   return Categoria;
 };

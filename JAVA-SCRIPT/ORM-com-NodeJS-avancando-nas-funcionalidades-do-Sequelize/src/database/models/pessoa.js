@@ -1,6 +1,3 @@
-// associação: https://sequelize.org/docs/v6/core-concepts/assocs/
-// hasMany: um para muitos
-
 'use strict';
 const {
   Model
@@ -10,12 +7,12 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       Pessoa.hasMany(models.Curso, {
         foreignKey: 'docente_id'
-      })
+      });
       Pessoa.hasMany(models.Matricula, {
         foreignKey: 'estudante_id',
-        scope: { status: 'matriculado'},
+        // scope: { status: 'matriculado' },
         as: 'aulasMatriculadas'
-      }) 
+      });
     }
   }
   Pessoa.init({
@@ -27,7 +24,13 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Pessoa',
-    tableName: 'pessoas'
+    tableName: 'pessoas',
+    paranoid: true, //Config de soft delete
+    defaultScope: { //Scope padrao é aplicado onde a coluna é ativo igual a  true
+      where: {
+        ativo: true,
+      }
+    }
   });
   return Pessoa;
 };
