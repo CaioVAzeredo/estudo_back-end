@@ -24,7 +24,13 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Pessoa',
-    tableName: 'pessoas'
+    tableName: 'pessoas',
+    paranoid: true, //Config de soft delete
+    defaultScope: { //Scope padrao é aplicado onde a coluna é ativo igual a  true
+      where: {
+        ativo: true,
+      }
+    }
   });
   return Pessoa;
 };
