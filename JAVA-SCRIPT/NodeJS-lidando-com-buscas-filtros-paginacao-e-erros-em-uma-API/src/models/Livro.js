@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import mongooseAutoPopulate from "mongoose-autopopulate";
 
 const livroSchema = new mongoose.Schema(
   {
@@ -11,7 +10,7 @@ const livroSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "autores",
       required: [true, "O autor é obrigatório"],
-      autoPopulate: true //Isso irá indicar para o plugin que esse é o campo a ser populado automaticamente sempre que formos obter um ou mais livros.
+
     },
     editora: {
       type: String, required: [true, "A editora é obrigatório"],
@@ -33,6 +32,5 @@ const livroSchema = new mongoose.Schema(
 );
 
 const livros = mongoose.model("livros", livroSchema);
-livroSchema.plugin(mongooseAutoPopulate) //Nao deu certo
 
 export default livros;
