@@ -30,6 +30,11 @@ module.exports = (sequelize, DataTypes) => {
       where: {
         ativo: true,
       }
+    },
+    scopes: {
+      todosOsRegistros: {
+        where: {} //Objeto vasio mostra que nao estamos especificando nada no where
+      }
     }
   });
   return Pessoa;

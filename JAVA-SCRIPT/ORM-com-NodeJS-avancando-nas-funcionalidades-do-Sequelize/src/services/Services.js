@@ -5,10 +5,14 @@ class Services {
     this.model = nomeDoModel;
   }
 
-  async pegaTodosOsRegistros () {
+  async pegaTodosOsRegistros() {
     return dataSource[this.model].findAll();
   }
 
+  async pegaRegistrosPorEscopo(escopo) {
+    return dataSource[this.model].scope(escopo).findAll()
+  }
+  
   async pegaUmRegistroPorId(id) {
     return dataSource[this.model].findByPk(id);
   }
