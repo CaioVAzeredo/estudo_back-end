@@ -1,7 +1,7 @@
 'use strict';
-const {
-  Model
-} = require('sequelize');
+const { Model } = require('sequelize');
+
+
 module.exports = (sequelize, DataTypes) => {
   class Pessoa extends Model {
     static associate(models) {
@@ -17,7 +17,15 @@ module.exports = (sequelize, DataTypes) => {
   }
   Pessoa.init({
     nome: DataTypes.STRING,
-    email: DataTypes.STRING,
+    email: {
+      type: DataTypes.STRING,
+      validade: { //validação de email pelo sequelize que faz parte de "validação e limitação" na documentação do sequelize
+        isEmail: {
+          args: true,
+          msg: 'FORMATO INVÁLIDO'
+        }
+      }
+    },
     cpf: DataTypes.STRING,
     ativo: DataTypes.BOOLEAN,
     role: DataTypes.STRING
@@ -26,14 +34,14 @@ module.exports = (sequelize, DataTypes) => {
     modelName: 'Pessoa',
     tableName: 'pessoas',
     paranoid: true, //Config de soft delete
-    defaultScope: { //Scope padrao é aplicado onde a coluna é ativo igual a  true
+    defaultScope: { //Scope padrao é aplicado onde a coluna é ativo sendo igual a true
       where: {
         ativo: true,
       }
     },
     scopes: {
       todosOsRegistros: {
-        where: {} //Objeto vasio mostra que nao estamos especificando nada no where
+        where: {} //Objeto vasio mostra que nao estamos especificando nada no where, logo ele manda todos os registros
       }
     }
   });
