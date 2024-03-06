@@ -19,10 +19,10 @@ module.exports = (sequelize, DataTypes) => {
     nome: DataTypes.STRING,
     email: {
       type: DataTypes.STRING,
-      validade: { //validação de email pelo sequelize que faz parte de "validação e limitação" na documentação do sequelize
+      validate: { //validação de email pelo sequelize que faz parte de "validação e limitação" na documentação do sequelize
         isEmail: {
           args: true,
-          msg: 'FORMATO INVÁLIDO'
+          msg: 'formato do email inválido'
         }
       }
     },
