@@ -14,16 +14,21 @@ class Services {
   }
   
   async pegaUmRegistroPorId(id) {
-    return dataSource[this.model].findByPk(id);
+    return dataSource[this.model].findByPk(id); //Só aceita a chave primária
   }
+
+  async pegaUmRegistro(where) {
+    return dataSource[this.model].findOne({where: {...where}}); //spread operator. Retorna a primeira ocorrencia  que encontrar na coluna mesmo se encontrar nenhuma especificação válida
+  }
+
 
   async criaRegistro(dadosDoRegistro) {
     return dataSource[this.model].create(dadosDoRegistro);
   }
 
-  async atualizaRegistro(dadosAtualizados, id) {
+  async atualizaRegistro(dadosAtualizados, where) {
     const listadeRegistrosAtualizados = await dataSource[this.model].update(dadosAtualizados, {
-      where: { id: id }
+      where: { ...where }
     });
     if (listadeRegistrosAtualizados[0] === 0) {
       return false;

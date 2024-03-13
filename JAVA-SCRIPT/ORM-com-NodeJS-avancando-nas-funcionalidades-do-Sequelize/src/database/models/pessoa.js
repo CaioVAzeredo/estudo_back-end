@@ -13,6 +13,11 @@ module.exports = (sequelize, DataTypes) => {
         scope: { status: 'matriculado' }, //filtrar apenas por matriculado
         as: 'aulasMatriculadas'
       });
+      Pessoa.hasMany(models.Matricula, {
+        foreignKey: 'estudante_id',
+        //sem scope pois 
+        as: 'todasAsMatriculas'
+      });
     }
   }
   Pessoa.init({
