@@ -36,7 +36,8 @@ class Controller {
   async pegaUm(req, res) {
     const { ...params } = req.params;
     const where = converteIds(params)
-    console.log(where)
+   /*  console.log(req.params)
+    console.log(where) */
     try {
       const umRegistro = await this.entidadeService.pegaUmRegistro(where);
       return res.status(200).json(umRegistro);

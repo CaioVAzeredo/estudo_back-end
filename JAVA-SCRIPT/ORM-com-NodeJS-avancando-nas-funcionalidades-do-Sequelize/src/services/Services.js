@@ -5,20 +5,21 @@ class Services {
     this.model = nomeDoModel;
   }
 
-  async pegaTodosOsRegistros() {
-    return dataSource[this.model].findAll();
+  async pegaTodosOsRegistros(where = {}) {
+    return dataSource[this.model].findAll({ where: { ...where } });
   }
+
 
   async pegaRegistrosPorEscopo(escopo) {
     return dataSource[this.model].scope(escopo).findAll()
   }
-  
+
   async pegaUmRegistroPorId(id) {
     return dataSource[this.model].findByPk(id); //Só aceita a chave primária
   }
 
   async pegaUmRegistro(where) {
-    return dataSource[this.model].findOne({where: {...where}}); //spread operator. Retorna a primeira ocorrencia  que encontrar na coluna mesmo se encontrar nenhuma especificação válida
+    return dataSource[this.model].findOne({ where: { ...where } }); //spread operator. Retorna a primeira ocorrencia  que encontrar na coluna mesmo se encontrar nenhuma especificação válida
   }
 
 
