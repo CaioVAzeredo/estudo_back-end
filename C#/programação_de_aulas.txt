@@ -1,0 +1,8 @@
+-  Aprenda a programar em C# com Orientação a Objetos
+- C# e Orientação a Objetos: coleções, arquivos e bibliotecas
+-  C# Web: crie aplicações usando ASP.NET
+- ASP.Net Core: crie aplicações com C#, .NET, Entity Framework e LINQ
+- Testes em .NET
+- Boas práticas em C#
+- Aprofunde em .NET com Arquitetura de Microsserviços e RabbitMQ
+- Windows Forms com C#
