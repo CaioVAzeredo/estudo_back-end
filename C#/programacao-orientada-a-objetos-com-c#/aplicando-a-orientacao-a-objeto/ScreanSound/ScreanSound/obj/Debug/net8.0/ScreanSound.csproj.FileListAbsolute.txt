@@ -1,0 +1,15 @@
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\bin\Debug\net8.0\ScreanSound.exe
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\bin\Debug\net8.0\ScreanSound.deps.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\bin\Debug\net8.0\ScreanSound.runtimeconfig.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\bin\Debug\net8.0\ScreanSound.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\bin\Debug\net8.0\ScreanSound.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.AssemblyInfoInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.AssemblyInfo.cs
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.csproj.CoreCompileInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.sourcelink.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\refint\ScreanSound.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ScreanSound.genruntimeconfig.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\aplicando-a-orientacao-a-objeto\ScreanSound\ScreanSound\obj\Debug\net8.0\ref\ScreanSound.dll
