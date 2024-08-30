@@ -1,14 +1,16 @@
-﻿Musica musica1 = new Musica();
-musica1.nome = "555";
-musica1.artista = "Slipknot";
-musica1.duracao = 273;
-musica1.disponivel = true;
+﻿Album albumDoSlipknot = new Album();
+albumDoSlipknot.Nome = "Iowa";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Wait and Bleed";
+musica1.Duracao = 213;
 
 Musica musica2 = new Musica();
-musica2.nome = "Vertigo";
-musica2.artista = "U2";
-musica2.duracao = 367;
-musica2.disponivel = false;
+musica2.Nome = "Before I Forget";
+musica2.Duracao = 430;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+albumDoSlipknot.AdicionarMusica(musica1);
+albumDoSlipknot.AdicionarMusica(musica2);
+
+
+albumDoSlipknot.ExibirMusicaDoAlbum();

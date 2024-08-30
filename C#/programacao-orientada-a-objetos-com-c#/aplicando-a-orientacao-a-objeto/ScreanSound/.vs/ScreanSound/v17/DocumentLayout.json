@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|solutionrelative:screansound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\screansound\\screansound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|solutionrelative:screansound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\screansound\\screansound\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|solutionrelative:screansound\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\screansound\\screansound\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{729994FA-AE67-49FA-A8FC-B7A4EF128165}|ScreanSound\\ScreanSound.csproj|solutionrelative:screansound\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,17 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\.gitignore",
+              "RelativeDocumentMoniker": "ScreanSound\\.gitignore",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\.gitignore",
+              "RelativeToolTip": "ScreanSound\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-30T02:04:30.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\Album.cs",
+              "RelativeDocumentMoniker": "ScreanSound\\Album.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\Album.cs",
+              "RelativeToolTip": "ScreanSound\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T01:40:50.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\Musica.cs",
               "RelativeDocumentMoniker": "ScreanSound\\Musica.cs",
               "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\Musica.cs",
               "RelativeToolTip": "ScreanSound\\Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T00:49:42.026Z",
               "EditorCaption": ""
@@ -41,7 +75,7 @@
               "RelativeDocumentMoniker": "ScreanSound\\Program.cs",
               "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\aplicando-a-orientacao-a-objeto\\ScreanSound\\ScreanSound\\Program.cs",
               "RelativeToolTip": "ScreanSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T00:44:29.711Z",
               "EditorCaption": ""
