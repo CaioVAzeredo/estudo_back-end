@@ -1,10 +1,13 @@
-﻿class Album
+﻿namespace ScreenSound.Modelos;
+
+
+class Album
 {
     private List<Musica> musicas = new List<Musica>();
 
     public Album(string nome)
     {
-        Nome = nome;
+          Nome = nome;
     }
 
     public string Nome { get; }
