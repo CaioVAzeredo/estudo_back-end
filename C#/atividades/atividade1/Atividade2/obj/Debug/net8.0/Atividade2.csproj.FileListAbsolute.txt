@@ -1,0 +1,15 @@
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\bin\Debug\net8.0\Atividade2.exe
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\bin\Debug\net8.0\Atividade2.deps.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\bin\Debug\net8.0\Atividade2.runtimeconfig.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\bin\Debug\net8.0\Atividade2.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\bin\Debug\net8.0\Atividade2.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.AssemblyInfoInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.AssemblyInfo.cs
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.csproj.CoreCompileInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.sourcelink.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\refint\Atividade2.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\Atividade2.genruntimeconfig.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade1\Atividade2\obj\Debug\net8.0\ref\Atividade2.dll
