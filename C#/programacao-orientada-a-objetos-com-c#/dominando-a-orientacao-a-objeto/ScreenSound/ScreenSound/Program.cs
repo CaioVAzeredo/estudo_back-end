@@ -11,6 +11,11 @@ Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(ira.Nome, ira);
 bandasRegistradas.Add(beatles.Nome, beatles);
 
+foreach (string banda in bandasRegistradas.Keys)
+{
+    Console.WriteLine($"Banda: {banda}");
+}
+
 Dictionary<int, Menu> opcoes = new();
 opcoes.Add(1, new MenuRegistrarBanda());
 opcoes.Add(2, new MenuRegistrarAlbum());
