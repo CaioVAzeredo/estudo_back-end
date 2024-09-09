@@ -37,7 +37,7 @@ void ExibirOpcoesDoMenu()
 
     if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
     {
-    Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
+        Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
         menuASerExibido.Executar(bandasRegistradas);
         if (opcaoEscolhidaNumerica > 0) ExibirOpcoesDoMenu();
     }
