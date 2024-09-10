@@ -8,7 +8,8 @@ ira.AdicionarNota(new Avaliacao(6));
 Banda beatles = new Banda("The Beatles");
 
 Dictionary<string, Banda> bandasRegistradas = new();
-bandasRegistradas.Add(ira.Nome, ira);
+bandasRegistradas.Add(
+    .Nome, ira);
 bandasRegistradas.Add(beatles.Nome, beatles);
 
 foreach (string banda in bandasRegistradas.Keys)
