@@ -4,7 +4,7 @@ namespace Atividade3.Menus;
 
 internal class Menu
 {
-    public void ExibirTituloDaOpcao(string titulo) {
+    public void ExibirTituloDaPergunta(string titulo) {
          int quantidadeDeLetras = titulo.Length;
          string asterisco = string.Empty.PadLeft(quantidadeDeLetras, '*');
          System.Console.WriteLine(asterisco);
