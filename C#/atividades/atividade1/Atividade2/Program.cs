@@ -5,3 +5,4 @@ Produto caneta = new Produto("caneta", 2);
 
 Dictionary<int, Produto> produtosRegistrados = new();
 produtosRegistrados.Add(caneta.Quantidade, caneta);
+
