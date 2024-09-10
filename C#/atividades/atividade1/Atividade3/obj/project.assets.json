@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade1\\Atividade2\\Atividade2.csproj",
-      "projectName": "Atividade2",
-      "projectPath": "D:\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade1\\Atividade2\\Atividade2.csproj",
+      "projectUniqueName": "D:\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade1\\Atividade3\\Atividade3.csproj",
+      "projectName": "Atividade3",
+      "projectPath": "D:\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade1\\Atividade3\\Atividade3.csproj",
       "packagesPath": "C:\\Users\\cacal\\.nuget\\packages\\",
-      "outputPath": "D:\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade1\\Atividade2\\obj\\",
+      "outputPath": "D:\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade1\\Atividade3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cacal\\AppData\\Roaming\\NuGet\\NuGet.Config"

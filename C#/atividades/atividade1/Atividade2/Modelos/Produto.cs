@@ -9,12 +9,4 @@ internal class Produto
         Nome = nome;
         Quantidade = quantidade;
     }
-    public void AddQtd(int quantidade)
-    {
-        
-    }
-    public void ExibirInfo()
-    {
-        System.Console.WriteLine($"Produto: {Nome}, Quantidade {Quantidade}");
-    }
 }

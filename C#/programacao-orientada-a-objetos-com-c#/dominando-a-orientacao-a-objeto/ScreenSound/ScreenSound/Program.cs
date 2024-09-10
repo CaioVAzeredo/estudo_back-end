@@ -8,8 +8,7 @@ ira.AdicionarNota(new Avaliacao(6));
 Banda beatles = new Banda("The Beatles");
 
 Dictionary<string, Banda> bandasRegistradas = new();
-bandasRegistradas.Add(
-    .Nome, ira);
+bandasRegistradas.Add(ira.Nome, ira);
 bandasRegistradas.Add(beatles.Nome, beatles);
 
 foreach (string banda in bandasRegistradas.Keys)
@@ -28,7 +27,6 @@ opcoes.Add(-1, new MenuSair());
 
 void ExibirOpcoesDoMenu()
 {
-    ExibirLogo();
     Console.WriteLine("\nDigite 1 para registrar uma banda");
     Console.WriteLine("Digite 2 para registrar o álbum de uma banda");
     Console.WriteLine("Digite 3 para mostrar todas as bandas");
@@ -52,10 +50,6 @@ void ExibirOpcoesDoMenu()
         Console.WriteLine("Opção inválida");
     }
 }
-void ExibirLogo()
-{
-    Console.WriteLine("Screen Sound");
-    Console.WriteLine("Boas vindas ao Screen Sound 2.0!");
-}
+
 
 ExibirOpcoesDoMenu();
