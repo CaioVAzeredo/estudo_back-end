@@ -1,6 +1,5 @@
 ﻿namespace ScreenSound.Modelos;
 
-
 internal class Album : IAvaliavel
 {
     private List<Musica> musicas = new List<Musica>();
