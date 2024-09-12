@@ -12,11 +12,11 @@ internal class MenuLogin : Menu
 
         foreach (KeyValuePair<string, Autenticacao> usuario in usuarios)
         {
-            if (login == usuario.Value.Login)
+            if (login == usuario.Value.MostraLogin())
             {
                 System.Console.WriteLine("Qual a senha?");
                 string senha = Console.ReadLine()!;
-                if (senha == usuario.Value.Senha)
+                if (senha == usuario.Value.MostrarSenha())
                 {
                     System.Console.WriteLine("Acesso autorizado!!");
                     break;

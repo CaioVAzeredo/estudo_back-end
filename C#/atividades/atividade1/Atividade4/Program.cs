@@ -1,21 +1,16 @@
 ﻿using Atividade4.Models;
 using Atividade4.Menus;
 
-Autenticacao us1 = new Autenticacao("Caio", "12345");
-Autenticacao us2 = new Autenticacao("Felipe", "4321");
-Autenticacao us3 = new Autenticacao("Augusto", "9876");
-Autenticacao us4 = new Autenticacao("Fernando", "6789");
+Autenticacao us1 = new Autenticacao();
+us1.DefinirLogin("Caio");
+us1.DefinirSenha("12345");
 
 Dictionary<string, Autenticacao> usuarios = new();
-usuarios.Add(us1.Login, us1);
-usuarios.Add(us2.Login, us2);
-usuarios.Add(us3.Login, us3);
-usuarios.Add(us4.Login, us4);
+usuarios.Add(us1.MostraLogin(), us1);
 
 Dictionary<int, Menu> opcoes = new();
 opcoes.Add(1, new MenuLogin());
 opcoes.Add(2, new MenuCadastro());
-
 
 
 void ExibirOpcoes()
