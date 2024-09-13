@@ -1,8 +1,8 @@
-﻿namespace atividade3.Modelos;
+﻿namespace atividade3.Filmes;
 
 internal class Filmes
 {
-    private List<Elenco> pessoas = new List<Elenco>();
+    private List<Artistas> pessoas = new();
 
 
     public string Titulo { get; set; }
@@ -14,16 +14,22 @@ internal class Filmes
         Titulo = titulo;
     }
 
-    public void AdicionaElenco(Elenco nome)
+    public void AdicionaElenco(Artistas nome)
     {
         pessoas.Add(nome);
     }
 
+    public void adicionarParticipacao()
+    {
+
+    }
+    
+
     public void MostrarDetalhes()
     {
-        Console.WriteLine($"Nome do filme: {Titulo}, Duração: {Duracao}");
+        Console.WriteLine($"Filme: {Titulo}, Duração: {Duracao}");
         Console.WriteLine("Elenco: ");
-        foreach (Elenco pessoa in pessoas)
+        foreach (Artistas pessoa in pessoas)
         {
             Console.WriteLine(pessoa.Nome);
         }
