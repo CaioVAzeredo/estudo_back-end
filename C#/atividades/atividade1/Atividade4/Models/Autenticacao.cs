@@ -2,8 +2,8 @@ namespace Atividade4.Models;
 
 internal class Autenticacao
 {
-    private string Login { get; set; }
-    private string Senha { get; set; }
+    private string? Login { get; set; }
+    private string? Senha { get; set; }
 
     /*public Autenticacao(string login, string senha)
     {
@@ -18,13 +18,11 @@ internal class Autenticacao
     {
         Senha = senha;
     }
-  public string MostraLogin()
-    {
-        return Login;
-    }
 
-    public string MostrarSenha()
-    {
-        return Senha;
-    }
+    public string MostraLogin() => Login!;
+
+    public string MostrarSenha() => Senha!;
+
+    public bool VerificaSenha(string senha) => Senha == senha;
+
 }

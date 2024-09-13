@@ -13,22 +13,29 @@ opcoes.Add(1, new MenuLogin());
 opcoes.Add(2, new MenuCadastro());
 
 
+
 void ExibirOpcoes()
 {
-    System.Console.WriteLine("O que deseja fazer?");
-    System.Console.WriteLine("Digite 1 para fazer Login ");
-    System.Console.WriteLine("Digite 2 para cadastrar um novo Login");
-    System.Console.WriteLine("*************************************");
-    System.Console.WriteLine("Digite a sua opção: ");
+    Console.WriteLine("O que deseja fazer?");
+        Console.WriteLine("Digite 1 para fazer Login ");
+        Console.WriteLine("Digite 2 para cadastrar um novo Login");
+        Console.WriteLine("*************************************");
+        Console.WriteLine("Digite a sua opção: ");
 
-    string opcaoEscolhida = Console.ReadLine()!;
-    int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
+        string opcaoEscolhida = Console.ReadLine()!;
+        int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
 
-    if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
-    {
-        Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
-        menuASerExibido.Executar(usuarios);
-    }
+
+        if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
+        {
+            Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
+            menuASerExibido.Executar(usuarios);
+            if (opcaoEscolhidaNumerica > 0) ExibirOpcoes();
+        }
+        else
+        {
+            Console.WriteLine("Opção inválida");
+        }
 }
-
 ExibirOpcoes();
+

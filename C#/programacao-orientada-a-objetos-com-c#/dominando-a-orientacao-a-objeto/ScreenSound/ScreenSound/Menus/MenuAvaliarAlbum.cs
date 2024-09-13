@@ -20,7 +20,7 @@ internal class MenuAvaliarAlbum : Menu
             {
                 Album album = banda.Albuns.First(a => a.Nome.Equals(tituloAlbum));
                 Console.Write($"Qual a nota que o album {tituloAlbum} merece: ");
-                Avaliacao nota = Avaliacao.Parse(Console.ReadLine());
+                Avaliacao nota = Avaliacao.Parse(Console.ReadLine()!);
                 album.AdicionarNota(nota);
                 Console.WriteLine($"\nA nota {nota.Nota} foi registrada com sucesso para o album {tituloAlbum} da banda {nomeDaBanda}");
                 Thread.Sleep(2000);

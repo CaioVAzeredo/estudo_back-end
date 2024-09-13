@@ -6,30 +6,38 @@ internal class MenuLogin : Menu
     public override void Executar(Dictionary<string, Autenticacao> usuarios)
     {
         base.Executar(usuarios);
-        System.Console.WriteLine("----------------------Login de usuário----------------------");
-        System.Console.WriteLine("Qual o login?");
+        Console.WriteLine("----------------------Login de usuário----------------------");
+        Console.WriteLine("Qual o login?");
         string login = Console.ReadLine()!;
 
         foreach (KeyValuePair<string, Autenticacao> usuario in usuarios)
         {
             if (login == usuario.Value.MostraLogin())
             {
-                System.Console.WriteLine("Qual a senha?");
+                Console.WriteLine("Qual a senha?");
                 string senha = Console.ReadLine()!;
-                if (senha == usuario.Value.MostrarSenha())
+                if (usuario.Value.VerificaSenha(senha))
                 {
-                    System.Console.WriteLine("Acesso autorizado!!");
+                    Console.WriteLine("Acesso autorizado!!");
                     break;
                 }
                 else
                 {
-                    System.Console.WriteLine("Senha errada!!");
+                    Console.WriteLine("Senha errada!!");
+                    Thread.Sleep(2000);
+                    Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+                    Console.ReadKey();
+                    Console.Clear();
                     break;
                 }
             }
             else
             {
-                System.Console.WriteLine("Login não encontrado!!");
+                Console.WriteLine("Login não encontrado!!");
+                Thread.Sleep(2000);
+                Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+                Console.ReadKey();
+                Console.Clear();
                 break;
             }
         }

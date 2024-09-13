@@ -14,7 +14,7 @@ namespace ScreenSound.Menus
             {
                 Banda banda = bandasRegistradas[nomeDaBanda];
                 Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
-                Avaliacao nota = Avaliacao.Parse(Console.ReadLine());
+                Avaliacao nota = Avaliacao.Parse(Console.ReadLine()!);
                 banda.AdicionarNota(nota);
                 Console.WriteLine($"\nA nota {nota.Nota} foi registrada com sucesso para a banda {nomeDaBanda}");
                 Console.Clear();
