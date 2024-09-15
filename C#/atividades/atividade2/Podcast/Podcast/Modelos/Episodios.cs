@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Podcast.Modelos;
 
-namespace Podcast.Modelos
+internal class Episodios
 {
-    internal class Episodios
+    public float Duracao { get; }
+    public int Ordem { get; }
+    public string Titulo { get; }
+    public string Resumo => $"O {Titulo} com {Duracao} desse Podcast";
+
+    public Episodios(string titulo, int ordem, int duracao)
     {
+        Titulo = titulo;
+        Ordem = ordem;
+        Duracao = duracao;
     }
+
 }
