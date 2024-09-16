@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormasGeometricas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60ea252f19ce492b2be3825b5decc609edc33f37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b964ba3c7121ab8cdf1b74e09f828db4918510")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormasGeometricas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormasGeometricas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

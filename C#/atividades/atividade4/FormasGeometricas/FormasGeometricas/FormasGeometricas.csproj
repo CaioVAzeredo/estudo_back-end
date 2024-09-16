@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Modelos\" />
     <Folder Include="Menu\" />
   </ItemGroup>
 
