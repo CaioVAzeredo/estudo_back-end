@@ -1,0 +1,15 @@
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\bin\Debug\net8.0\FormasGeometricas.exe
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\bin\Debug\net8.0\FormasGeometricas.deps.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\bin\Debug\net8.0\FormasGeometricas.runtimeconfig.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\bin\Debug\net8.0\FormasGeometricas.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\bin\Debug\net8.0\FormasGeometricas.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.AssemblyInfoInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.AssemblyInfo.cs
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.csproj.CoreCompileInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.sourcelink.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\refint\FormasGeometricas.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\FormasGeometricas.genruntimeconfig.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\FormasGeometricas\FormasGeometricas\obj\Debug\net8.0\ref\FormasGeometricas.dll

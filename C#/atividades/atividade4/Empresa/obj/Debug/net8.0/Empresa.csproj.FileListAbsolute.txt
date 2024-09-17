@@ -1,0 +1,15 @@
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\bin\Debug\net8.0\Empresa.exe
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\bin\Debug\net8.0\Empresa.deps.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\bin\Debug\net8.0\Empresa.runtimeconfig.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\bin\Debug\net8.0\Empresa.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\bin\Debug\net8.0\Empresa.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.AssemblyInfoInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.AssemblyInfo.cs
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.csproj.CoreCompileInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.sourcelink.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\refint\Empresa.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\Empresa.genruntimeconfig.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\Empresa\obj\Debug\net8.0\ref\Empresa.dll
