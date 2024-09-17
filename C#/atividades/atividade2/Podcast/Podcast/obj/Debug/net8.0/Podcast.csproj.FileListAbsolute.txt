@@ -1,0 +1,15 @@
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\bin\Debug\net8.0\Podcast.exe
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\bin\Debug\net8.0\Podcast.deps.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\bin\Debug\net8.0\Podcast.runtimeconfig.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\bin\Debug\net8.0\Podcast.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\bin\Debug\net8.0\Podcast.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.AssemblyInfoInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.AssemblyInfo.cs
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.csproj.CoreCompileInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.sourcelink.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\refint\Podcast.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\Podcast.genruntimeconfig.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade2\Podcast\Podcast\obj\Debug\net8.0\ref\Podcast.dll
