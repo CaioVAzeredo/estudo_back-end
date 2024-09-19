@@ -1,7 +1,7 @@
-namespace FormasGeometricas.FormaGenerica
+namespace FormasGeometricas.FormaGenerica;
+
+internal interface ICalculoArea
 {
-    internal interface ICalculoArea
-    {
-        void CalcularArea();
-    }
+    void CalcularArea();
+    void CalcularPerimetro();
 }

@@ -1,6 +1,6 @@
 namespace FormasGeometricas.FormaGenerica;
 
-internal class Circulo : FormaGenerica
+internal class Circulo : FormaGenerica, ICalculoArea
 {
     public float Raio { get; set; }
 
@@ -12,11 +12,16 @@ internal class Circulo : FormaGenerica
     public override void ExibirInfo()
     {
         base.ExibirInfo();
-        CalculoArea();
+        CalcularArea();
+        CalcularPerimetro();
     }
 
-    public void CalculoArea()
+    public void CalcularArea()
     {
         Console.WriteLine($"Área do {Nome}: {3.14 * (Raio * Raio)}");
+    }
+    public void CalcularPerimetro()
+    {
+        Console.WriteLine($"Perimetro do {Nome}: {2 * 3.14 * Raio}");
     }
 }

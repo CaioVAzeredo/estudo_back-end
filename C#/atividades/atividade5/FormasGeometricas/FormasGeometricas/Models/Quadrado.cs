@@ -1,6 +1,6 @@
 namespace FormasGeometricas.FormaGenerica;
 
-internal class Quadrado : FormaGenerica
+internal class Quadrado : FormaGenerica, ICalculoArea
 {
     public float Altura { get; set; }
     public float Base { get; set; }
@@ -14,12 +14,17 @@ internal class Quadrado : FormaGenerica
     public override void ExibirInfo()
     {
         base.ExibirInfo();
-        CalculoArea();
+        CalcularArea();
+        CalcularPerimetro();
     }
 
-    void CalculoArea()
+    public void CalcularArea()
     {
         Console.WriteLine($"Área do {Nome}: {Altura * Base}");
+    }
+    public void CalcularPerimetro()
+    {
+        Console.WriteLine($"Perimetro do {Nome}: {(Altura * 2) + (Base * 2)}");
     }
 }
 

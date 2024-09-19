@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade4\\FormasGeometricas\\",
+  "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade4\\formasgeometricas\\formasgeometricas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|solutionrelative:formasgeometricas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\formasgeometricas\\formasgeometricas\\models\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|solutionrelative:formasgeometricas\\models\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\formasgeometricas\\formasgeometricas\\models\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|solutionrelative:formasgeometricas\\models\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\formasgeometricas\\formasgeometricas\\models\\icalculoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782EBBB4-8AF8-4007-8FF6-D52F627A9A69}|FormasGeometricas\\FormasGeometricas.csproj|solutionrelative:formasgeometricas\\models\\icalculoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade4\\FormasGeometricas\\FormasGeometricas\\Program.cs",
-              "RelativeDocumentMoniker": "FormasGeometricas\\Program.cs",
-              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade4\\FormasGeometricas\\FormasGeometricas\\Program.cs",
-              "RelativeToolTip": "FormasGeometricas\\Program.cs",
+              "Title": "Triangulo.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\FormasGeometricas\\Models\\Triangulo.cs",
+              "RelativeDocumentMoniker": "FormasGeometricas\\Models\\Triangulo.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\FormasGeometricas\\Models\\Triangulo.cs*",
+              "RelativeToolTip": "FormasGeometricas\\Models\\Triangulo.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:55:56.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quadrado.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\FormasGeometricas\\Models\\Quadrado.cs",
+              "RelativeDocumentMoniker": "FormasGeometricas\\Models\\Quadrado.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\FormasGeometricas\\Models\\Quadrado.cs*",
+              "RelativeToolTip": "FormasGeometricas\\Models\\Quadrado.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:55:04.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICalculoArea.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\FormasGeometricas\\Models\\ICalculoArea.cs",
+              "RelativeDocumentMoniker": "FormasGeometricas\\Models\\ICalculoArea.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\FormasGeometricas\\FormasGeometricas\\Models\\ICalculoArea.cs",
+              "RelativeToolTip": "FormasGeometricas\\Models\\ICalculoArea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T00:08:42.831Z",
+              "WhenOpened": "2024-09-19T18:55:00.478Z",
               "EditorCaption": ""
             }
           ]

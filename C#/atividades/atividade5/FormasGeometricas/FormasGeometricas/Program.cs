@@ -1,4 +1,5 @@
 ﻿using FormasGeometricas.FormaGenerica;
+using FormasGeometricas.Models;
 
 Quadrado quadrado = new("Quadrado", 10, 5);
 quadrado.ExibirInfo();
@@ -8,3 +9,7 @@ triangulo.ExibirInfo();
 System.Console.WriteLine("\n");
 Circulo circulo = new("Circulo", 5);
 circulo.ExibirInfo();
+/*------------------------------------------------*/
+
+Veiculo carro = new("Fiat", "Uno", 2012);
+carro.Voar(false);
