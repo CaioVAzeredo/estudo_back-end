@@ -20,7 +20,6 @@ public virtual void desenvolverCompetencias(){
 }
 
 
-
 public virtual void ExibirInformacoes(){
     Console.WriteLine($"Nome: {Nome} - Email: {Email} - Salário: {Salario}");
 }

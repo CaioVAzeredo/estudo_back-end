@@ -1,0 +1,15 @@
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\bin\Debug\net8.0\ContaBancaria.exe
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\bin\Debug\net8.0\ContaBancaria.deps.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\bin\Debug\net8.0\ContaBancaria.runtimeconfig.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\bin\Debug\net8.0\ContaBancaria.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\bin\Debug\net8.0\ContaBancaria.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.AssemblyInfoInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.AssemblyInfo.cs
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.csproj.CoreCompileInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.sourcelink.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\refint\ContaBancaria.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ContaBancaria.genruntimeconfig.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade4\ContaBancaria\ContaBancaria\obj\Debug\net8.0\ref\ContaBancaria.dll
