@@ -1,0 +1,15 @@
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\bin\Debug\net8.0\ListaDeInteiros.exe
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\bin\Debug\net8.0\ListaDeInteiros.deps.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\bin\Debug\net8.0\ListaDeInteiros.runtimeconfig.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\bin\Debug\net8.0\ListaDeInteiros.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\bin\Debug\net8.0\ListaDeInteiros.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.AssemblyInfoInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.AssemblyInfo.cs
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.csproj.CoreCompileInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.sourcelink.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\refint\ListaDeInteiros.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ListaDeInteiros.genruntimeconfig.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade6\ListaDeInteiros\ListaDeInteiros\ListaDeInteiros\obj\Debug\net8.0\ref\ListaDeInteiros.dll

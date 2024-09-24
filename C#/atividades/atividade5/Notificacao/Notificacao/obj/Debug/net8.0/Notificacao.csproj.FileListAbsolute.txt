@@ -1,0 +1,15 @@
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\bin\Debug\net8.0\Notificacao.exe
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\bin\Debug\net8.0\Notificacao.deps.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\bin\Debug\net8.0\Notificacao.runtimeconfig.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\bin\Debug\net8.0\Notificacao.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\bin\Debug\net8.0\Notificacao.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.AssemblyInfoInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.AssemblyInfo.cs
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.csproj.CoreCompileInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.sourcelink.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\refint\Notificacao.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\Notificacao.genruntimeconfig.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Notificacao\Notificacao\obj\Debug\net8.0\ref\Notificacao.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade6\\Soma-de-numeros\\SomaDeDoisNumeros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94E415EE-0569-4FF0-95D9-F95902E30287}|SomaDeDoisNumeros\\SomaDeDoisNumeros.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade6\\soma-de-numeros\\somadedoisnumeros\\somadedoisnumeros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E415EE-0569-4FF0-95D9-F95902E30287}|SomaDeDoisNumeros\\SomaDeDoisNumeros.csproj|solutionrelative:somadedoisnumeros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade6\\Soma-de-numeros\\SomaDeDoisNumeros\\SomaDeDoisNumeros\\Program.cs",
+              "RelativeDocumentMoniker": "SomaDeDoisNumeros\\Program.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade6\\Soma-de-numeros\\SomaDeDoisNumeros\\SomaDeDoisNumeros\\Program.cs",
+              "RelativeToolTip": "SomaDeDoisNumeros\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:58:12.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

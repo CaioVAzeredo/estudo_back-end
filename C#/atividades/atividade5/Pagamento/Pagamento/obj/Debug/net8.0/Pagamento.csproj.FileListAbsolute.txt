@@ -1,0 +1,15 @@
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\bin\Debug\net8.0\Pagamento.exe
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\bin\Debug\net8.0\Pagamento.deps.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\bin\Debug\net8.0\Pagamento.runtimeconfig.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\bin\Debug\net8.0\Pagamento.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\bin\Debug\net8.0\Pagamento.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.AssemblyInfoInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.AssemblyInfo.cs
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.csproj.CoreCompileInputs.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.sourcelink.json
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\refint\Pagamento.dll
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.pdb
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\Pagamento.genruntimeconfig.cache
+C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\atividades\atividade5\Pagamento\Pagamento\obj\Debug\net8.0\ref\Pagamento.dll

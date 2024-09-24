@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\pagamento\\pagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|solutionrelative:pagamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\pagamento\\pagamento\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|solutionrelative:pagamento\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\pagamento\\pagamento\\models\\servi\u00E7o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|solutionrelative:pagamento\\models\\servi\u00E7o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade5\\pagamento\\pagamento\\models\\ipagavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFFE16A-416E-49D4-84FE-A71B0D793FD1}|Pagamento\\Pagamento.csproj|solutionrelative:pagamento\\models\\ipagavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Servi\u00E7o.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Models\\Servi\u00E7o.cs",
+              "RelativeDocumentMoniker": "Pagamento\\Models\\Servi\u00E7o.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Models\\Servi\u00E7o.cs",
+              "RelativeToolTip": "Pagamento\\Models\\Servi\u00E7o.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:45:56.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Pagamento\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Models\\Produto.cs",
+              "RelativeToolTip": "Pagamento\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:45:17.808Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Program.cs",
               "RelativeDocumentMoniker": "Pagamento\\Program.cs",
-              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Program.cs",
-              "RelativeToolTip": "Pagamento\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Program.cs*",
+              "RelativeToolTip": "Pagamento\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T19:53:51.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPagavel.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Models\\IPagavel.cs",
+              "RelativeDocumentMoniker": "Pagamento\\Models\\IPagavel.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade5\\Pagamento\\Pagamento\\Models\\IPagavel.cs",
+              "RelativeToolTip": "Pagamento\\Models\\IPagavel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:42:59.347Z",
               "EditorCaption": ""
             }
           ]

@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Notificacao.Models;
+
+Email email = new Email();
+email.EnviarNotificacao();
+
+Sms sms = new Sms();
+sms.EnviarNotificacao();
