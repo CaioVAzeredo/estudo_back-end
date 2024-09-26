@@ -1,0 +1,15 @@
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\bin\Debug\net8.0\ConsultaNumeros.exe
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\bin\Debug\net8.0\ConsultaNumeros.deps.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\bin\Debug\net8.0\ConsultaNumeros.runtimeconfig.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\bin\Debug\net8.0\ConsultaNumeros.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\bin\Debug\net8.0\ConsultaNumeros.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.AssemblyInfoInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.AssemblyInfo.cs
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.csproj.CoreCompileInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.sourcelink.json
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\refint\ConsultaNumeros.dll
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.pdb
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ConsultaNumeros.genruntimeconfig.cache
+D:\ESTUDO\ALURA\back-end\C#\atividades\atividade8\ConsultaNumeros\obj\Debug\net8.0\ref\ConsultaNumeros.dll

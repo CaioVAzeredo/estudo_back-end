@@ -6,7 +6,10 @@ internal class LinqFilter
 {
     public static void FiltrarTodosOsGenerosMusicais(List<Musica> musicas)
     {
-        var todosOsGenerosMusicais = musicas.Select(generos => generos.Genero).Distinct().ToList();
+        var todosOsGenerosMusicais = musicas
+        .Select(generos => generos.Genero)
+        .Distinct()
+        .ToList();
 
         foreach (var genero in todosOsGenerosMusicais)
         {
@@ -17,7 +20,13 @@ internal class LinqFilter
     public static void FiltrarArtistasPorGeneroMusical(List<Musica> musicas, string genero)
     {
 
-        var artistasPorGeneroMusical = musicas.Where(musica => musica.Genero.Contains(genero)).Select(musica => musica.Artista).Distinct().ToList();
+        var artistasPorGeneroMusical = musicas
+        .Where(musica => musica.Genero! //Filtra uma coleção com base em uma condição fornecida. Apenas os elementos que satisfazem essa condição serão incluídos na coleção resultante.
+        .Contains(genero))
+        .Select(musica => musica.Artista)
+        .Distinct()
+        .ToList();
+
         System.Console.WriteLine($"Exibir os artistas por genero >>> {genero}");
         foreach (var artista in artistasPorGeneroMusical)
         {
@@ -27,7 +36,10 @@ internal class LinqFilter
 
     public static void FiltrarMusicasDeArtistas(List<Musica> musicas, string nomeDoArtista)
     {
-        var musicaDoArtista = musicas.Where(musica => musica.Artista!.Equals(nomeDoArtista)).ToList();
+        var musicaDoArtista = musicas
+        .Where(musica => musica.Artista!
+        .Equals(nomeDoArtista))
+        .ToList();
         Console.WriteLine(nomeDoArtista);
         foreach (var musica in musicaDoArtista){
             Console.WriteLine($"- {musica.Nome}");
