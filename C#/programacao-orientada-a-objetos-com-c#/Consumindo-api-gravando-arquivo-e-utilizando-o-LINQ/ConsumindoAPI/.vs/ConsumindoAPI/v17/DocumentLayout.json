@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\\ConsumindoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\consumindo-api-gravando-arquivo-e-utilizando-o-linq\\consumindoapi\\consumindoapi\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|solutionrelative:consumindoapi\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\consumindo-api-gravando-arquivo-e-utilizando-o-linq\\consumindoapi\\consumindoapi\\models\\musicaspreferidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|solutionrelative:consumindoapi\\models\\musicaspreferidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\consumindo-api-gravando-arquivo-e-utilizando-o-linq\\consumindoapi\\consumindoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|solutionrelative:consumindoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\programacao-orientada-a-objetos-com-c#\\consumindo-api-gravando-arquivo-e-utilizando-o-linq\\consumindoapi\\consumindoapi\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA367F71-C441-42DD-86D4-D79E7E8526B7}|ConsumindoAPI\\ConsumindoAPI.csproj|solutionrelative:consumindoapi\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MusicasPreferidas.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\\ConsumindoAPI\\ConsumindoAPI\\Models\\MusicasPreferidas.cs",
+              "RelativeDocumentMoniker": "ConsumindoAPI\\Models\\MusicasPreferidas.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\\ConsumindoAPI\\ConsumindoAPI\\Models\\MusicasPreferidas.cs",
+              "RelativeToolTip": "ConsumindoAPI\\Models\\MusicasPreferidas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:41:14.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\\ConsumindoAPI\\ConsumindoAPI\\Models\\Musica.cs",
               "RelativeDocumentMoniker": "ConsumindoAPI\\Models\\Musica.cs",
               "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\\ConsumindoAPI\\ConsumindoAPI\\Models\\Musica.cs",
               "RelativeToolTip": "ConsumindoAPI\\Models\\Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T18:09:17.533Z",
               "EditorCaption": ""
@@ -41,9 +58,10 @@
               "RelativeDocumentMoniker": "ConsumindoAPI\\Program.cs",
               "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\programacao-orientada-a-objetos-com-c#\\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\\ConsumindoAPI\\ConsumindoAPI\\Program.cs",
               "RelativeToolTip": "ConsumindoAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T13:46:05.999Z"
+              "WhenOpened": "2024-09-20T13:46:05.999Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using Produto.Filtro;
+using System.Text.Json;
 using (HttpClient client = new HttpClient())
 {
     Dictionary<string, double> produtos = new Dictionary<string, double>
@@ -9,8 +10,8 @@ using (HttpClient client = new HttpClient())
             { "Boné", 39.90 }
         };
 
-    string produtosString = JsonSerializer.Serialize(produtos); 
-    var produtosEmString = JsonSerializer.Deserialize<string>(produtosString);
+    string produtosString = JsonSerializer.Serialize(produtos);
+    var produtosEmString = JsonSerializer.Deserialize<Dictionary<string, double>>(produtosString);
 
-    Console.WriteLine(produtosEmString);
+    LinqMedia.FiltrarMedia(produtosEmString);
 }
