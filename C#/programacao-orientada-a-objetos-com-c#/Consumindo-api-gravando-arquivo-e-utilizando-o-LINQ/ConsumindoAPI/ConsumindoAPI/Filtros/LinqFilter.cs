@@ -41,8 +41,18 @@ internal class LinqFilter
         .Equals(nomeDoArtista))
         .ToList();
         Console.WriteLine(nomeDoArtista);
-        foreach (var musica in musicaDoArtista){
+        foreach (var musica in musicaDoArtista)
+        {
             Console.WriteLine($"- {musica.Nome}");
+        }
+    }
+    public static void FiltrarPorDo(List<Musica> musicas)
+    {
+        var musicaComDo = musicas.Where(musica => musica.Tonalidade.Equals("C#")).Select(musica => musica.Nome).ToList();
+        System.Console.WriteLine("Música em C#:");
+        foreach (var musica in musicaComDo)
+        {
+            Console.WriteLine($"-{musica}");
         }
     }
 }

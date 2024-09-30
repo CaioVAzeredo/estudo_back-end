@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsumindoAPI
-build_property.ProjectDir = C:\Users\cacal\Documents\ESTUDO\ALURA\estudo_back-end\C#\programacao-orientada-a-objetos-com-c#\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\ConsumindoAPI\ConsumindoAPI\
+build_property.ProjectDir = D:\ESTUDO\ALURA\back-end\C#\programacao-orientada-a-objetos-com-c#\Consumindo-api-gravando-arquivo-e-utilizando-o-LINQ\ConsumindoAPI\ConsumindoAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
