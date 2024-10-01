@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "trabalhando-com-arrays-e-colecoes/1.0.0": {
+        "runtime": {
+          "trabalhando-com-arrays-e-colecoes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "trabalhando-com-arrays-e-colecoes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\bin\Debug\net8.0\trabalhando-com-arrays-e-colecoes.exe
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\bin\Debug\net8.0\trabalhando-com-arrays-e-colecoes.deps.json
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\bin\Debug\net8.0\trabalhando-com-arrays-e-colecoes.runtimeconfig.json
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\bin\Debug\net8.0\trabalhando-com-arrays-e-colecoes.dll
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\bin\Debug\net8.0\trabalhando-com-arrays-e-colecoes.pdb
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.AssemblyInfoInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.AssemblyInfo.cs
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.csproj.CoreCompileInputs.cache
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.sourcelink.json
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.dll
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\refint\trabalhando-com-arrays-e-colecoes.dll
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.pdb
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\trabalhando-com-arrays-e-colecoes.genruntimeconfig.cache
+D:\ESTUDO\ALURA\back-end\C#\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\trabalhando-com-arrays-e-colecoes\obj\Debug\net8.0\ref\trabalhando-com-arrays-e-colecoes.dll
