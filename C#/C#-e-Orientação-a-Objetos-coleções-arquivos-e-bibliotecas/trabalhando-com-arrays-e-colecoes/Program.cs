@@ -1,7 +1,7 @@
 ﻿//ArrayInt();
 //TestaBuscaPalavra();
 // void ArrayInt()
-// {
+//  {
 //     int[] idades = new int[5];
 //     idades[0] = 30;
 //     idades[1] = 40;
@@ -69,6 +69,7 @@
 
     System.Console.WriteLine($"A mediana é de: {mediana}");
 
+
 } */
 
 using System.Formats.Asn1;
@@ -80,8 +81,9 @@ void TestaArrayDeContaCorrentes()
     listaDeContas.Adicionar(new ContaCorrente(1, "1000.0-C", 1000));
     listaDeContas.Adicionar(new ContaCorrente(1, "500.0-B", 500));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 10000));
+    listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 15023));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 1.3));
-    listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 40));
+    listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 400000));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 3.99));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 0));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 50));
