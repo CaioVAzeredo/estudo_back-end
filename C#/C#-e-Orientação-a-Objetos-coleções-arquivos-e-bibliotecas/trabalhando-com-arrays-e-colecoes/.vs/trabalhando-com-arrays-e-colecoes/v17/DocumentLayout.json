@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76EF70EC-DBF4-4EE6-8869-D9D66F181F95}|trabalhando-com-arrays-e-colecoes.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\c#-e-orienta\u00E7\u00E3o-a-objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\conta\\listadecontascorrentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76EF70EC-DBF4-4EE6-8869-D9D66F181F95}|trabalhando-com-arrays-e-colecoes.csproj|solutionrelative:conta\\listadecontascorrentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76EF70EC-DBF4-4EE6-8869-D9D66F181F95}|trabalhando-com-arrays-e-colecoes.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\c#-e-orienta\u00E7\u00E3o-a-objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\conta\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76EF70EC-DBF4-4EE6-8869-D9D66F181F95}|trabalhando-com-arrays-e-colecoes.csproj|solutionrelative:conta\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76EF70EC-DBF4-4EE6-8869-D9D66F181F95}|trabalhando-com-arrays-e-colecoes.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\c#-e-orienta\u00E7\u00E3o-a-objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76EF70EC-DBF4-4EE6-8869-D9D66F181F95}|trabalhando-com-arrays-e-colecoes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListaDeContasCorrentes.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\Conta\\ListaDeContasCorrentes.cs",
+              "RelativeDocumentMoniker": "Conta\\ListaDeContasCorrentes.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\Conta\\ListaDeContasCorrentes.cs",
+              "RelativeToolTip": "Conta\\ListaDeContasCorrentes.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:51:19.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContaCorrente.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\Conta\\ContaCorrente.cs",
+              "RelativeDocumentMoniker": "Conta\\ContaCorrente.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\Conta\\ContaCorrente.cs",
+              "RelativeToolTip": "Conta\\ContaCorrente.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:49:20.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orienta\u00E7\u00E3o-a-Objetos-cole\u00E7\u00F5es-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAQwFsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:49:09.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

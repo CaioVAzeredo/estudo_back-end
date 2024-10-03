@@ -1,4 +1,3 @@
-- Aprenda a programar em C# com Orientação a Objetos
 - C# e Orientação a Objetos: coleções, arquivos e bibliotecas
 - Boas práticas em C#
 - C# Web: crie aplicações usando ASP.NET

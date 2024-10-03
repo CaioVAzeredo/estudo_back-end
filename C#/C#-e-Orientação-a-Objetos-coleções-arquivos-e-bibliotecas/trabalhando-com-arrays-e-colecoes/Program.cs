@@ -89,6 +89,9 @@ void TestaArrayDeContaCorrentes()
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 50));
 
     listaDeContas.FiltraMaiorSaldo();
+    var contaCaio = new ContaCorrente(1,"123456-X", 0);
+
+    listaDeContas.Adicionar(contaCaio);
 }
 
 TestaArrayDeContaCorrentes();

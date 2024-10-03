@@ -49,4 +49,23 @@ public class listaDeContasCorrentes
         }
         Console.WriteLine(ultimoValor);
     }
+    public void Remover(ContaCorrente conta)
+    {
+        int indiceItem = -1;
+        for (int i = 0; i < _proximaPosicao; i++)
+        {
+            ContaCorrente contaAtual = _itens[i];
+            if (contaAtual == conta)
+            {
+                indiceItem = i;
+                break;
+            }
+        }
+        for (int i = indiceItem; i < _proximaPosicao - 1; i++)
+        {
+            _itens[i] = _itens[i+ 1];
+        }
+        _proximaPosicao--;
+        _itens[_proximaPosicao] = null!;
+    }
 }
