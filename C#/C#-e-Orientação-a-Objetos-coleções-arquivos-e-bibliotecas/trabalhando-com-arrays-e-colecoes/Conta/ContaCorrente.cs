@@ -12,4 +12,9 @@ public class ContaCorrente
         Saldo = saldo;
     }
 
+    public ContaCorrente(Int32 agencia, string conta)
+    {
+        Agencia = agencia;
+        Conta = conta;
+    }
 }

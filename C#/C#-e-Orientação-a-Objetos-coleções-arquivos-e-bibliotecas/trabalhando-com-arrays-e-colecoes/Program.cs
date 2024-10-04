@@ -1,4 +1,5 @@
-﻿//ArrayInt();
+﻿#region Exemplo em C#
+//ArrayInt();
 //TestaBuscaPalavra();
 // void ArrayInt()
 //  {
@@ -87,11 +88,55 @@ void TestaArrayDeContaCorrentes()
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 3.99));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 0));
     listaDeContas.Adicionar(new ContaCorrente(1, "2000.0-A", 50));
+    //listaDeContas.FiltraMaiorSaldo();
 
-    listaDeContas.FiltraMaiorSaldo();
-    var contaCaio = new ContaCorrente(1,"123456-X", 0);
+    var ContaCaio = new ContaCorrente(1, "123456-X", 0);
+    listaDeContas.Adicionar(ContaCaio);
+    // listaDeContas.ExibirLista();
+    // System.Console.WriteLine("==================");
+    // listaDeContas.Remover(ContaCaio);
+    // listaDeContas.ExibirLista();
 
-    listaDeContas.Adicionar(contaCaio);
+    for (int i = 0; i < listaDeContas.Tamanho; i++)
+    {
+        ContaCorrente conta = listaDeContas[i]; //indexador é para facilitar o acesso de um elemento de um array ou lista
+
+        Console.WriteLine($"Indice [{i}] = {conta.Conta}/{conta.Agencia}");
+    }
+
 }
 
-TestaArrayDeContaCorrentes();
+//TestaArrayDeContaCorrentes();
+#endregion
+
+void AtendimentoCliente()
+{
+    Console.WriteLine("Bem vindo ao atendimento do banco");
+    char opcao = '0';
+    while (opcao != '6')
+    {
+        Console.Clear();
+        Console.WriteLine("===============================");
+        Console.WriteLine("===       Atendimento       ===");
+        Console.WriteLine("===1 - Cadastrar Conta      ===");
+        Console.WriteLine("===2 - Listar Contas        ===");
+        Console.WriteLine("===3 - Remover Conta        ===");
+        Console.WriteLine("===4 - Ordenar Contas       ===");
+        Console.WriteLine("===5 - Pesquisar Conta      ===");
+        Console.WriteLine("===6 - Sair do Sistema      ===");
+        Console.WriteLine("===============================");
+        Console.WriteLine("\n\n");
+        Console.Write("Digite a opção desejada: ");
+        opcao = Console.ReadLine()![0];
+        switch (opcao)
+        {
+            case '1': CadastrarConta();
+                break;
+                default: Console.WriteLine("Opcao nao implementada");
+                break;
+        }
+    }
+
+}
+
+AtendimentoCliente();

@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj": {}
+    "D:\\ESTUDO\\ALURA\\back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj": {
+    "D:\\ESTUDO\\ALURA\\back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj",
+        "projectUniqueName": "D:\\ESTUDO\\ALURA\\back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj",
         "projectName": "trabalhando-com-arrays-e-colecoes",
-        "projectPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj",
+        "projectPath": "D:\\ESTUDO\\ALURA\\back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\trabalhando-com-arrays-e-colecoes.csproj",
         "packagesPath": "C:\\Users\\cacal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\obj\\",
+        "outputPath": "D:\\ESTUDO\\ALURA\\back-end\\C#\\C#-e-Orientação-a-Objetos-coleções-arquivos-e-bibliotecas\\trabalhando-com-arrays-e-colecoes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cacal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cacal\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
