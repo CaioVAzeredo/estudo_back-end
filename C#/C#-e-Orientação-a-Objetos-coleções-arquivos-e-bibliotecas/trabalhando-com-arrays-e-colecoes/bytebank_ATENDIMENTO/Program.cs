@@ -1,4 +1,7 @@
-﻿void TesteArreyInt()
+﻿using bytebank.Modelos.Conta;
+using bytebank_ATENDIMENTO.bytebank.Util;
+
+void TesteArreyInt()
 {
 int[] idades = new int[4];
 idades[0] = 30;
@@ -67,3 +70,16 @@ void CalcularMediana(Array array)
     Console.WriteLine($"a mediana é: {mediana}");
 }
 
+
+testaArreyDeContaCorrentes();
+void testaArreyDeContaCorrentes()
+{
+    ListaDeContasCorrentes listaDeContas = new();
+    listaDeContas.Adicionar(new ContaCorrente(874));
+    listaDeContas.Adicionar(new ContaCorrente(874));
+    listaDeContas.Adicionar(new ContaCorrente(874));
+    listaDeContas.Adicionar(new ContaCorrente(874));
+    listaDeContas.Adicionar(new ContaCorrente(874));
+    listaDeContas.Adicionar(new ContaCorrente(874));
+
+}
