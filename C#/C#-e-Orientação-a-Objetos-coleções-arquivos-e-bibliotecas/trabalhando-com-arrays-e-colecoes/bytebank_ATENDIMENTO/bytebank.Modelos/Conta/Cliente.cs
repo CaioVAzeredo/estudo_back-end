@@ -18,7 +18,7 @@
                 {
                     Console.WriteLine("Nome do titular precisa ter pelo menos 3 caracteres.");
                 }
-             }
+            }
 
         }
         //public string Nome { get; set; }
