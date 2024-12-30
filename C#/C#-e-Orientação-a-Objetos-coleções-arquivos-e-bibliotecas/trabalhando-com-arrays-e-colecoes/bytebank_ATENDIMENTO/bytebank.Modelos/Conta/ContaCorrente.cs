@@ -1,12 +1,13 @@
 ﻿namespace bytebank.Modelos.Conta
 {
-    public class ContaCorrente
+    public class ContaCorrente : IComparable<ContaCorrente>
     {
 
         public Cliente Titular { get; set; }
         public string Nome_Agencia { get; set; }
 
         private int _numero_agencia;
+        public static int TotalDeContasCriadas { get; set; }
         public int Numero_agencia
         {
             get
@@ -67,6 +68,15 @@
             }
         }
 
+        public ContaCorrente(int numero_agencia, string conta)
+        {
+            Numero_agencia = numero_agencia;
+            Conta = conta;
+            Titular = new Cliente();
+            TotalDeContasCriadas += 1;
+
+        }
+
         public bool Sacar(double valor)
         {
             if (saldo < valor)
@@ -111,16 +121,31 @@
             }
         }
 
-        public ContaCorrente(int numero_agencia, string conta)
+        public int CompareTo(ContaCorrente? outro)
         {
-            Numero_agencia = numero_agencia;
-            Conta = conta;
-            Titular = new Cliente();
-            TotalDeContasCriadas += 1;
-
+            if(outro == null)
+            {
+                return 1;
+            }
+            else
+            {
+                return this.Numero_agencia.CompareTo(outro.Numero_agencia);
+            }
         }
 
-        public static int TotalDeContasCriadas { get; set; }
+
+        public override string ToString()
+        {
+
+            return $" === DADOS DA CONTA === \n" +
+                            $"Número da Conta : {this.Conta} \n" +
+                            $"Número da Agência : {this.Numero_agencia} \n" +
+                            $"Saldo da Conta: {this.Saldo} \n" +
+                            $"Titular da Conta: {this.Titular.Nome} \n" +
+                            $"CPF do Titular  : {this.Titular.Cpf} \n" +
+                            $"Profissão do Titular: {this.Titular.Profissao}\n\n";
+        }
+
 
         //public override bool Equals(object? conta)
         //{
