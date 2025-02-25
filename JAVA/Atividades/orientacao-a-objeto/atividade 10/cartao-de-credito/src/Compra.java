@@ -5,8 +5,14 @@ public class Compra {
     private double limite;
     private List<Produto> produtos;
 
-    public Compra(double limite, List<Produto> produtos) {
-        this.limite = limite;
+    public Compra(double limite, List<Produto> produtos) throws IllegalAccessException {
+        if (limite < 0) {
+            throw new IllegalAccessException("Limite nao pode ser negativo");
+        } else if (produtos == null) {
+            throw new IllegalAccessException("Lista de produtos nao pode ser nula");
+        } else {
+            this.limite = limite;
+        }
         this.produtos = produtos;
     }
 
@@ -15,11 +21,7 @@ public class Compra {
     }
 
     public void setLimite(double limite) {
-        if (limite <= 0) {
-            System.out.println("Valor invalido");
-        } else {
-            this.limite = limite;
-        }
+        this.limite = limite;
     }
 
     public List<Produto> getProduto() {
@@ -43,13 +45,13 @@ public class Compra {
     }
 
     public void descricao() {
-        System.out.println("COMPRAS REALIZADAS: \n");
-        produtos.sort(Comparator.comparingDouble(Produto::getPreco));
         boolean verifica = verificaLimite();
 
         if (verifica) {
             System.out.println("Limite indisponível");
         } else {
+            System.out.println("COMPRAS REALIZADAS: \n");
+            produtos.sort(Comparator.comparingDouble(Produto::getPreco));
             for (Produto produto : produtos) {
                 System.out.println("Produto: " + produto.getNome() + "- preco: " + produto.getPreco());
             }

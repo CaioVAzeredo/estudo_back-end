@@ -3,10 +3,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Coloque um limite para o cartão");
+        System.out.println("Coloque um limite para o cartão: ");
         double limite = Double.parseDouble(scanner.nextLine());
 
         List<Produto> produtos = new ArrayList<>();
@@ -24,7 +24,6 @@ public class Main {
             if (saida == 1) {
                 continue;
             } else if (saida == 0) {
-                System.out.println("Sessão finalizada");
                 Compra compra = new Compra(limite, produtos);
                 compra.descricao();
                 break;
