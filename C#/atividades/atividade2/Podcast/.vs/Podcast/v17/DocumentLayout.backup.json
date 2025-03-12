@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\",
+  "WorkspaceRootPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade2\\podcast\\podcast\\modelos\\podcasts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\back-end\\c#\\atividades\\atividade2\\podcast\\podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|solutionrelative:podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\back-end\\c#\\atividades\\atividade2\\podcast\\podcast\\modelos\\podcasts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|solutionrelative:podcast\\modelos\\podcasts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade2\\podcast\\podcast\\modelos\\episodios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\back-end\\c#\\atividades\\atividade2\\podcast\\podcast\\modelos\\episodios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|solutionrelative:podcast\\modelos\\episodios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|c:\\users\\cacal\\documents\\estudo\\alura\\estudo_back-end\\c#\\atividades\\atividade2\\podcast\\podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEF2356E-82DA-4F00-954D-BE74ECF0D747}|Podcast\\Podcast.csproj|solutionrelative:podcast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Program.cs",
               "RelativeDocumentMoniker": "Podcast\\Program.cs",
-              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Program.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Program.cs",
               "RelativeToolTip": "Podcast\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T18:56:51.092Z",
               "EditorCaption": ""
@@ -40,27 +40,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Episodios.cs",
-              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Episodios.cs",
-              "RelativeDocumentMoniker": "Podcast\\Modelos\\Episodios.cs",
-              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Episodios.cs",
-              "RelativeToolTip": "Podcast\\Modelos\\Episodios.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "Title": "Podcasts.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Podcasts.cs",
+              "RelativeDocumentMoniker": "Podcast\\Modelos\\Podcasts.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Podcasts.cs",
+              "RelativeToolTip": "Podcast\\Modelos\\Podcasts.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:59:30.519Z",
+              "WhenOpened": "2025-02-18T17:40:32.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Podcasts.cs",
-              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Podcasts.cs",
-              "RelativeDocumentMoniker": "Podcast\\Modelos\\Podcasts.cs",
-              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Podcasts.cs",
-              "RelativeToolTip": "Podcast\\Modelos\\Podcasts.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAABcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Episodios.cs",
+              "DocumentMoniker": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Episodios.cs",
+              "RelativeDocumentMoniker": "Podcast\\Modelos\\Episodios.cs",
+              "ToolTip": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade2\\Podcast\\Podcast\\Modelos\\Episodios.cs",
+              "RelativeToolTip": "Podcast\\Modelos\\Episodios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:59:19.572Z",
+              "WhenOpened": "2025-02-18T18:06:13.718Z",
               "EditorCaption": ""
             }
           ]

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj": {}
+    "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj": {
+    "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj",
+        "projectUniqueName": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj",
         "projectName": "atividade3",
-        "projectPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj",
+        "projectPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\atividade3.csproj",
         "packagesPath": "C:\\Users\\cacal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\estudo_back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\obj\\",
+        "outputPath": "C:\\Users\\cacal\\Documents\\ESTUDO\\ALURA\\back-end\\C#\\atividades\\atividade3\\Filmes\\atividade3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\cacal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
