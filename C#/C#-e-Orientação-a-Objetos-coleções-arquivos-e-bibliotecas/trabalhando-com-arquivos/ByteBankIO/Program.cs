@@ -5,8 +5,18 @@ partial class Program
 {
     static void Main(string[] args)
     {
-        CriarArquivo();
+      
+            var caminhoNovoArquivo = "contasExportadas.csv";
+
+            using (var fluxoDeArquivo = new FileStream(caminhoNovoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoDeArquivo))
+            {
+                escritor.Write("456, 789, 1011.12, Caio Viana");
+            }
+        
         Console.ReadLine();
+
+
         //    var enderecoDoArquivo = "contas.txt";
 
         //    using (var fluxoDeArquivo = new FileStream(enderecoDoArquivo, FileMode.Open))
