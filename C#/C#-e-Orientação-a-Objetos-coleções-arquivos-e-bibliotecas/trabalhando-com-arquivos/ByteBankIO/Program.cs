@@ -4,8 +4,24 @@ partial class Program
 {
     static void Main(string[] args)
     {
+<<<<<<< HEAD
+      
+            var caminhoNovoArquivo = "contasExportadas.csv";
+
+            using (var fluxoDeArquivo = new FileStream(caminhoNovoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoDeArquivo))
+            {
+                escritor.Write("456, 789, 1011.12, Caio Viana");
+            }
+        
+        Console.ReadLine();
+
+
+        //    var enderecoDoArquivo = "contas.txt";
+=======
         //Console.WriteLine("Digite o seu nome:");
         //string nome = Console.ReadLine();
+>>>>>>> 0b2a89b9462178d483acae7b5c9504a2fd22fcc1
 
         var linhas = File.ReadAllLines("contas.txt");
         Console.WriteLine(linhas.Length);
