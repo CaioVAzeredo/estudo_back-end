@@ -1,0 +1,12 @@
+[
+  {
+    "bairro": "Taguatinga Norte (Taguatinga)",
+    "localidade": "Brasília",
+    "uf": "DF"
+  },
+  {
+    "bairro": "Taguatinga Norte (Taguatinga)",
+    "localidade": "Brasília",
+    "uf": "DF"
+  }
+]
