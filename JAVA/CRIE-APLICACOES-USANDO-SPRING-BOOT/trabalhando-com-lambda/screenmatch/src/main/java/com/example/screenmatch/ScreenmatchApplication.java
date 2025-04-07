@@ -1,5 +1,6 @@
 package com.example.screenmatch;
 
+import com.example.screenmatch.model.DadosEpisodios;
 import com.example.screenmatch.model.DadosSeries;
 import com.example.screenmatch.service.ConsumoApi;
 import com.example.screenmatch.service.ConverteDados;
@@ -16,6 +17,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+
 		ConsumoApi consumo = new ConsumoApi();
 		String json = consumo.obterDados("https://www.omdbapi.com/?t=gilmore+girls&apikey=6585022c");
 		System.out.println(json);
@@ -23,5 +25,8 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		ConverteDados conversor = new ConverteDados();
 		DadosSeries dados = conversor.obterDados(json, DadosSeries.class);
 		System.out.println(dados);
+		json = consumo.obterDados("https://www.omdbapi.com/?t=gilmore+girls&season=1&episode=2&apikey=6585022c");
+		DadosEpisodios dadosEpisodios = conversor.obterDados(json, DadosEpisodios.class);
+		System.out.println(dadosEpisodios);
 	}
 }
