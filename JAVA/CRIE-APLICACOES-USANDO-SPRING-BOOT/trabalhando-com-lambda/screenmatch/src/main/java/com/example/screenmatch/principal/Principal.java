@@ -3,10 +3,12 @@ package com.example.screenmatch.principal;
 import com.example.screenmatch.model.DadosEpisodios;
 import com.example.screenmatch.model.DadosSeries;
 import com.example.screenmatch.model.DadosTemporada;
+import com.example.screenmatch.model.Episodio;
 import com.example.screenmatch.service.ConsumoApi;
 import com.example.screenmatch.service.ConverteDados;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -49,6 +51,14 @@ public class Principal {
                 .flatMap(temporada -> temporada.episodios().stream()) //flatMap serve para juntar a lista da lista em uma só
                 .collect(Collectors.toList()); //o .collect(Collectors.toList()) tem a função de listar, essa lista é mutavel diferente do toList que é imutavel
 
-        dadosEpisodios.forEach(System.out::println);
+        System.out.println("Top 5 episodios");
+        dadosEpisodios.stream()
+                .filter(episodio -> !episodio.avaliacao().equalsIgnoreCase("N/A"))
+                .sorted(Comparator.comparing(DadosEpisodios::avaliacao).reversed()) //sorteia fazendo uma comparação da avaliação dos episodios e no final usa no modo reverso
+                .limit(5)
+                .forEach(System.out::println);
+
+        List<Episodio> episodio = ;
+
     }
 }
