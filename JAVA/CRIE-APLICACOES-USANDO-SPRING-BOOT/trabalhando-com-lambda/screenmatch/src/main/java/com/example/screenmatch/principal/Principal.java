@@ -58,7 +58,12 @@ public class Principal {
                 .limit(5)
                 .forEach(System.out::println);
 
-        List<Episodio> episodio = ;
+        List<Episodio> episodio = temporadas.stream()
+                .flatMap(temporada -> temporada.episodios().stream()
+                        .map(dadosEpisodios1 -> new Episodio(temporada.numero(), dadosEpisodios1))
+                ).collect(Collectors.toList());
+
+        episodio.forEach(System.out::println);
 
     }
 }
