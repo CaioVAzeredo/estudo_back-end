@@ -7,10 +7,7 @@ import com.example.screenmatch.model.Episodio;
 import com.example.screenmatch.service.ConsumoApi;
 import com.example.screenmatch.service.ConverteDados;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Principal {
@@ -51,19 +48,41 @@ public class Principal {
                 .flatMap(temporada -> temporada.episodios().stream()) //flatMap serve para juntar a lista da lista em uma só
                 .collect(Collectors.toList()); //o .collect(Collectors.toList()) tem a função de listar, essa lista é mutavel diferente do toList que é imutavel
 
+        /*-------------------- Listar os top 5 episodios -------------------*/
         System.out.println("Top 5 episodios");
         dadosEpisodios.stream()
                 .filter(episodio -> !episodio.avaliacao().equalsIgnoreCase("N/A"))
+                .peek(filtro -> System.out.println("Primeiro filtro(N/A)" + filtro))
                 .sorted(Comparator.comparing(DadosEpisodios::avaliacao).reversed()) //sorteia fazendo uma comparação da avaliação dos episodios e no final usa no modo reverso
+                .peek(filtro -> System.out.println("Ordenação"))
                 .limit(5)
+                .peek(filtro -> System.out.println("Limite"))
+                .map(episodio -> episodio.titulo().toUpperCase())
+                .peek(filtro -> System.out.println("Mapeamento"))
                 .forEach(System.out::println);
 
+        /*-------------------- Listar os episodios -------------------*/
         List<Episodio> episodio = temporadas.stream()
                 .flatMap(temporada -> temporada.episodios().stream()
                         .map(dadosEpisodios1 -> new Episodio(temporada.numero(), dadosEpisodios1))
                 ).collect(Collectors.toList());
 
         episodio.forEach(System.out::println);
+
+        /*--------------- Encontrar um episodio pelo trecho do titulo ------------------*/
+        System.out.println("Digite um trecho do titulo do episodio");
+
+        var trechoTitulo = leitura.nextLine();
+        Optional<Episodio> episodioBuscado = episodio.stream()
+                .filter(e -> e.getTitulo().toUpperCase().contains((trechoTitulo)))
+                .findFirst(); //Encontrar a primeira referencia
+
+        if (episodioBuscado.isPresent()) {
+            System.out.println("Episodio encontrado!");
+            System.out.println("Temporada: " + episodioBuscado.get().getTemporada());
+        } else {
+            System.out.println("Episodio não encontrado!!");
+        }
 
     }
 }
