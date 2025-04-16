@@ -62,18 +62,18 @@ public class Principal {
                 .forEach(System.out::println);
 
         /*-------------------- Listar os episodios -------------------*/
-        List<Episodio> episodio = temporadas.stream()
+        List<Episodio> episodios = temporadas.stream()
                 .flatMap(temporada -> temporada.episodios().stream()
                         .map(dadosEpisodios1 -> new Episodio(temporada.numero(), dadosEpisodios1))
                 ).collect(Collectors.toList());
 
-        episodio.forEach(System.out::println);
+        episodios.forEach(System.out::println);
 
         /*--------------- Encontrar um episodio pelo trecho do titulo ------------------*/
         System.out.println("Digite um trecho do titulo do episodio");
 
         var trechoTitulo = leitura.nextLine();
-        Optional<Episodio> episodioBuscado = episodio.stream()
+        Optional<Episodio> episodioBuscado = episodios.stream()
                 .filter(e -> e.getTitulo().toUpperCase().contains((trechoTitulo)))
                 .findFirst(); //Encontrar a primeira referencia
 
@@ -84,5 +84,11 @@ public class Principal {
             System.out.println("Episodio não encontrado!!");
         }
 
+        /*--------------- mapear as avaliações por temporada ------------------*/
+        //.collect(...) Coleta os elementos da stream em uma estrutura específica. Nesse caso, um Map
+        Map<Integer, Double> avaliacaoPorTemporada = episodios.stream()
+                .filter(episodio -> episodio.getAvaliacao() > 0.0)
+                .collect(Collectors.groupingBy(Episodio::getTemporada, Collectors.averagingDouble(Episodio::getAvaliacao)));//Agrupa os elementos da stream por temporada, ou seja, o Map terá a temporada como chave
+        System.out.println(avaliacaoPorTemporada);
     }
 }
