@@ -4,10 +4,15 @@ import com.theokanning.openai.completion.CompletionRequest;
 import com.theokanning.openai.service.OpenAiService;
 
 public class ConsultaChatGPT {
-    String chave = System.getenv("OPENAI_API_KEY");
+
+    private static final String CHAVE = System.getenv("OPENAI_API_KEY");
 
     public static String obterTraducao(String texto) {
-        OpenAiService service = new OpenAiService(chave);
+        if (CHAVE == null || CHAVE.isEmpty()) {
+            throw new IllegalStateException("A variável de ambiente OPENAI_API_KEY não está definida.");
+        }
+
+        OpenAiService service = new OpenAiService(CHAVE);
 
         CompletionRequest requisicao = CompletionRequest.builder()
                 .model("gpt-3.5-turbo-instruct")
@@ -17,6 +22,6 @@ public class ConsultaChatGPT {
                 .build();
 
         var resposta = service.createCompletion(requisicao);
-        return resposta.getChoices().get(0).getText();
+        return resposta.getChoices().get(0).getText().trim();
     }
 }
