@@ -15,6 +15,7 @@ public class Serie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
     @Column(name = "titulo", unique = true)
     private String titulo;
 
@@ -32,11 +33,14 @@ public class Serie {
     private String sinopse;
 
     //@Transient é para nao persistir no banco, nao mexer nesse atributo por enquanto
-    @Transient
+    //@Transient
+    //cascade é para fazer a persistencia no banco de dados
+    @OneToMany(mappedBy = "serie", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Episodio> episodio = new ArrayList<>();
 
     //Para pegar os dados do banco e representar como um objeto do tipo serie.
-    public Serie(){}
+    public Serie() {
+    }
 
     public Serie(DadosSerie dadosSerie) {
         this.titulo = dadosSerie.titulo();
@@ -116,8 +120,9 @@ public class Serie {
         return episodio;
     }
 
-    public void setEpisodio(List<Episodio> episodio) {
-        this.episodio = episodio;
+    public void setEpisodio(List<Episodio> episodios) {
+        episodios.forEach(e -> e.setSerie(this)); //passando a proprio episodio para serie
+        this.episodio = episodios;
     }
 
     @Override
@@ -129,6 +134,7 @@ public class Serie {
                         ", avaliacao=" + avaliacao +
                         ", atores='" + atores + '\'' +
                         ", poster='" + poster + '\'' +
-                        ", sinopse='" + sinopse + '\'';
+                        ", sinopse='" + sinopse + '\'' +
+                        ", episodios='" + episodio + '\'';
     }
 }
