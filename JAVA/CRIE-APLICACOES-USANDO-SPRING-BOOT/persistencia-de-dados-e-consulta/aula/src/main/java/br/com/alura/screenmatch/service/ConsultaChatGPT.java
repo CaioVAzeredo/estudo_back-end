@@ -4,8 +4,8 @@ import com.theokanning.openai.completion.CompletionRequest;
 import com.theokanning.openai.service.OpenAiService;
 
 public class ConsultaChatGPT {
-
-    private static final String CHAVE = System.getenv("OPENAI_API_KEY");
+    //System.getenv serve para pegar informações da variavel de ambiente do sistema
+    private static final String CHAVE = System.getenv("OPENAI_APIKEY");
 
     public static String obterTraducao(String texto) {
         // Caso a chave não esteja configurada
