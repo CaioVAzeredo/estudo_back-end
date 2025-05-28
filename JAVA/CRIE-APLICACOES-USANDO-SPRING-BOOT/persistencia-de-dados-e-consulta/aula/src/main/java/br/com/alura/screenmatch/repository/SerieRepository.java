@@ -1,6 +1,7 @@
 package br.com.alura.screenmatch.repository;
 
 import br.com.alura.screenmatch.model.Categoria;
+import br.com.alura.screenmatch.model.Episodio;
 import br.com.alura.screenmatch.model.Serie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -17,8 +18,19 @@ public interface SerieRepository extends JpaRepository<Serie, Long> {
 
     List<Serie> findByGenero(Categoria categoria);
 
-    List<Serie> findByTotalTemporadasLessThenEqualAndAvaliacaoGreaterThenEqual(int temporadas, Double avaliacao);
+    List<Serie> findByTotalTemporadasLessThanEqualAndAvaliacaoGreaterThanEqual(int temporadas, Double avaliacao);
 
-    @Query("select * from serie WHERE serie.total_temporadas <= 5 AND serie.avaliacao >=7.5")
-    List<Serie> seriesPorTemporadaEAvaliacao();
+    @Query("select s from Serie s WHERE s.totalTemporadas <= :totalTemporadas AND s.avaliacao >= :avaliacao")
+    List<Serie> seriesPorTemporadaEAvaliacao(int totalTemporada, double avaliacao);
+
+    //faz a busca sem diferenciar maiúsculas e minúsculas (equivale ao IgnoreCase)
+    @Query("SELECT e FROM Serie s JOIN s.episodio e WHERE e.titulo ILIKE %:trechoEpisodio%")
+    List<Episodio> episodioPorTrecho(String trechoEpisodio);
+
+    @Query("SELECT e FROM Serie s JOIN s.episodio e WHERE s = :serie ORDER BY e.avaliacao DESC LIMIT 5 ")
+    List<Episodio> topEpisodiosPorSerie(Serie serie);
+
+
+    @Query("SELECT e FROM Serie s JOIN s.episodio e WHERE s = :serie AND YEAR(e.dataLancamento) >= :anoLancamento")
+    List<Episodio> episodioPorSerieEAno(Serie serie, int anoLancamento);
 }
