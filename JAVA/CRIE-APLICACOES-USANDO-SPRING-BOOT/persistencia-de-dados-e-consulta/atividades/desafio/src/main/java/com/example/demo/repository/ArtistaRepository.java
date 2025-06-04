@@ -1,4 +1,8 @@
 package com.example.demo.repository;
 
-public class ArtistaRepository {
+import com.example.demo.model.Artista;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ArtistaRepository extends JpaRepository<Artista, Long> {
+
 }

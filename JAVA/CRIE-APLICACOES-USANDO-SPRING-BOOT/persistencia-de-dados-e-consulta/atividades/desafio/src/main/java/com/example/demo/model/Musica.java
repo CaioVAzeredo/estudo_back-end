@@ -17,6 +17,7 @@ public class Musica {
     private String genero;
 
     @ManyToOne
+    @JoinColumn(name = "artista_id")
     private Artista artista_id;
 
     public Musica() {

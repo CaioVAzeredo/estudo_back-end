@@ -45,18 +45,6 @@ public class Principal {
                 case 1:
                     cadastrarArtista();
                     break;
-                case 2:
-
-                    break;
-                case 3:
-
-                    break;
-                case 4:
-
-                    break;
-                case 5:
-
-                    break;
                 case 0:
                     System.out.println("Saindo...");
                     break;
@@ -68,6 +56,17 @@ public class Principal {
     }
 
     private void cadastrarArtista() {
+        System.out.println("Informe o nome do artista");
+        String nome = leitura.nextLine();
+
+        System.out.println("Informe o tipo desse artista: (Solo, dupla, banda)");
+        String tipoArtista = leitura.nextLine();
+        Artista artista = new Artista(nome, tipoArtista);
+        repositorio.save(artista);
+
+/*        System.out.println("Cadastrar outro artista?(S/N)");
+        String cadastrarOutroArtista = leitura.nextLine();*/
+        System.out.println(artista.toString());
 
     }
 }

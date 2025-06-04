@@ -1,55 +1,46 @@
 package com.example.demo.model;
 
+import jakarta.persistence.OneToMany;
+
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
-@Table(name = "serie")
+@Table(name = "artista")
 public class Artista {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private String nacionalidade;
-    private String genero;
+    private String tipo;
 
-    @ManyToOne
-    private Musica musicas;
-
+    @OneToMany(mappedBy = "artista_id")
+    private List<Musica> musicas;
 
     public Artista() {
 
     }
 
-    public Artista(String nome, String nacionalidade, String genero, Musica musicas) {
+    public Artista(String nome, String tipo) {
         this.nome = nome;
-        this.nacionalidade = nacionalidade;
-        this.genero = genero;
-        this.musicas = musicas;
+        this.tipo = tipo;
     }
 
+    public String getTipo() {
+        return tipo;
+    }
 
-    public Musica getMusicas() {
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public List<Musica> getMusicas() {
         return musicas;
     }
 
-    public void setMusicas(Musica musicas) {
+    public void setMusicas(List<Musica> musicas) {
         this.musicas = musicas;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
-    public String getNacionalidade() {
-        return nacionalidade;
-    }
-
-    public void setNacionalidade(String nacionalidade) {
-        this.nacionalidade = nacionalidade;
     }
 
     public String getNome() {
@@ -72,8 +63,6 @@ public class Artista {
     public String toString() {
         return "id=" + id +
                 ", nome='" + nome + '\'' +
-                ", nacionalidade='" + nacionalidade + '\'' +
-                ", genero='" + genero + '\'' +
                 ", musicas=" + musicas;
     }
 }
