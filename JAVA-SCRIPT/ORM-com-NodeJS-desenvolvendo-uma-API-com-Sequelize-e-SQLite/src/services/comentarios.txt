@@ -1,1 +1,0 @@
-A camada de serviços é responsável por implementar a lógica das regras de negócio e age como intermediária entre controlador e camada de dados.

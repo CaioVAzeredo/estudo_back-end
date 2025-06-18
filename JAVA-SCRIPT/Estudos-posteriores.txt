@@ -1,7 +1,0 @@
-------------JS------------
-
--regex
--expressões regulares
-
----------https------------
-https://cursos.alura.com.br/course/http-fundamentos

@@ -1,5 +1,0 @@
-utilizar da api para fazer consultas:
-
-https://deividfortuna.github.io/fipe/
-
-https://parallelum.com.br/fipe/api/v1/carros/marcas
