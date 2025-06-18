@@ -3,6 +3,7 @@ package com.example.demo.principal;
 import com.example.demo.model.Artista;
 import com.example.demo.model.Musica;
 import com.example.demo.repository.ArtistaRepository;
+import com.example.demo.repository.MusicaRepository;
 import com.example.demo.service.ConsumoApi;
 import com.example.demo.service.ConverteDados;
 
@@ -10,7 +11,8 @@ import java.util.*;
 
 public class Principal {
     private Scanner leitura = new Scanner(System.in);
-    private ArtistaRepository repositorio;
+    private ArtistaRepository repositorioArtista;
+    private MusicaRepository repositorioMusica;
 
     private ConsumoApi consumo = new ConsumoApi();
     private ConverteDados converteDados = new ConverteDados();
@@ -18,8 +20,9 @@ public class Principal {
     private Optional<Artista> artistaBuscado;
     private List<Artista> artistas = new ArrayList<>();
 
-    public Principal(ArtistaRepository repositorio) {
-        this.repositorio = repositorio;
+    public Principal(ArtistaRepository repositorioArtista, MusicaRepository repositorioMusica) {
+        this.repositorioMusica = repositorioMusica;
+        this.repositorioArtista = repositorioArtista;
     }
 
     public void exibirMenu() {
@@ -65,17 +68,17 @@ public class Principal {
 
         System.out.println("Informe o artista: ");
         String artista = leitura.nextLine();
+        Artista nomeArtista = new Artista(artista);
 
-        Musica musica = new Musica();
+        Musica musica = new Musica(nomeMusica);
+        musica.setArtista_id(nomeArtista);
 
     }
 
-    private void listarArtistaBuscadas() {
-        artistas = repositorio.findAll();
-        artistas.stream()
-                .sorted(Comparator.comparing(Artista::getNome))
-                .forEach(System.out::println);
+    private void listarMusica(){
+
     }
+
 
     private void cadastrarArtista() {
         System.out.println("Informe o nome do artista: ");
@@ -84,7 +87,7 @@ public class Principal {
         System.out.println("Informe o tipo desse artista: (Solo, dupla, banda)");
         String tipoArtista = leitura.nextLine();
         Artista artista = new Artista(nome, tipoArtista);
-        repositorio.save(artista);
+        repositorioArtista.save(artista);
 
         System.out.println("Cadastrar outro artista?(S/N)");
         String cadastrarOutroArtista = leitura.nextLine();
@@ -93,5 +96,12 @@ public class Principal {
         }
         System.out.println(artista.toString());
 
+    }
+
+    private void listarArtistaBuscadas() {
+        artistas = repositorioArtista.findAll();
+        artistas.stream()
+                .sorted(Comparator.comparing(Artista::getNome))
+                .forEach(System.out::println);
     }
 }

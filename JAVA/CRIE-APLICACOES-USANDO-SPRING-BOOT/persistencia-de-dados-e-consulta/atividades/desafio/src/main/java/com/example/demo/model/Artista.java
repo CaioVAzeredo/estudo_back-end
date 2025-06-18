@@ -27,6 +27,10 @@ public class Artista {
         this.tipo = tipo;
     }
 
+    public Artista(String nome) {
+        this.nome = nome;
+    }
+
     public String getTipo() {
         return tipo;
     }
