@@ -8,6 +8,8 @@ import com.example.demo.service.ConsumoApi;
 import com.example.demo.service.ConverteDados;
 
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Principal {
     private Scanner leitura = new Scanner(System.in);
@@ -37,8 +39,6 @@ public class Principal {
                     
                     4- Buscar músicas por artistas
                     
-                    5- Pesquisar dados sobre um artista
-                    
                     9- Sair
                     """;
 
@@ -53,6 +53,12 @@ public class Principal {
                 case 2:
                     cadastrarMusica();
                     break;
+                case 3:
+                    listarMusicas();
+                    break;
+                case 4:
+                    listarMusicasPorArtistas();
+                    break;
                 case 0:
                     System.out.println("Saindo...");
                     break;
@@ -62,23 +68,50 @@ public class Principal {
         }
     }
 
+    private void listarMusicasPorArtistas() {
+
+    }
+
     private void cadastrarMusica() {
+
         System.out.println("Informe o nome da musica: ");
         String nomeMusica = leitura.nextLine();
 
+        System.out.println("Artistas cadastrados: ");
+        listarArtistaBuscados().stream()
+                .map(a -> a.getNome())
+                .forEach(System.out::println);
+
         System.out.println("Informe o artista: ");
         String artista = leitura.nextLine();
-        Artista nomeArtista = new Artista(artista);
 
-        Musica musica = new Musica(nomeMusica);
-        musica.setArtista_id(nomeArtista);
+        Optional<Artista> filtroArtista = repositorioArtista.findByNome(artista);
 
+        if (filtroArtista.isEmpty()) {
+            System.out.println("Artista não encontrado");
+            exibirMenu();
+        }
+
+        Artista artistaFiltroFinal = filtroArtista.get();
+
+        System.out.println("Informe a duração da música: ");
+        Double duracao = leitura.nextDouble();
+
+        Musica musica = new Musica(nomeMusica, artistaFiltroFinal, duracao);
+
+        repositorioMusica.save(musica);
+        System.out.println("Musica salva com sucesso!! ");
+
+        System.out.println("Cadastrar outro artista?(S/N)");
+        String cadastrarOutraMusica = leitura.nextLine();
+        if (cadastrarOutraMusica.equalsIgnoreCase("S")) {
+            cadastrarMusica();
+        }
     }
 
-    private void listarMusica(){
+    private void listarMusicas() {
 
     }
-
 
     private void cadastrarArtista() {
         System.out.println("Informe o nome do artista: ");
@@ -88,6 +121,7 @@ public class Principal {
         String tipoArtista = leitura.nextLine();
         Artista artista = new Artista(nome, tipoArtista);
         repositorioArtista.save(artista);
+        System.out.println("Artista salvo com sucesso!! ");
 
         System.out.println("Cadastrar outro artista?(S/N)");
         String cadastrarOutroArtista = leitura.nextLine();
@@ -98,10 +132,10 @@ public class Principal {
 
     }
 
-    private void listarArtistaBuscadas() {
-        artistas = repositorioArtista.findAll();
+    private List<Artista> listarArtistaBuscados() {
+        List<Artista> artistas = repositorioArtista.findAll();
         artistas.stream()
-                .sorted(Comparator.comparing(Artista::getNome))
-                .forEach(System.out::println);
+                .sorted(Comparator.comparing(Artista::getNome));
+        return artistas;
     }
 }

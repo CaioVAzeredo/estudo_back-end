@@ -15,6 +15,7 @@ public class DemoApplication implements CommandLineRunner {
 
     @Autowired
     private ArtistaRepository repositorioArtista;
+    @Autowired
     private MusicaRepository repositorioMusica;
 
     public static void main(String[] args) {
