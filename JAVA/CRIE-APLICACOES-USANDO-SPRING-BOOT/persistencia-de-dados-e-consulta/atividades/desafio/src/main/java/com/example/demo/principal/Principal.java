@@ -16,11 +16,7 @@ public class Principal {
     private ArtistaRepository repositorioArtista;
     private MusicaRepository repositorioMusica;
 
-    private ConsumoApi consumo = new ConsumoApi();
-    private ConverteDados converteDados = new ConverteDados();
-
-    private Optional<Artista> artistaBuscado;
-    private List<Artista> artistas = new ArrayList<>();
+    private Optional<Artista> filtroArtista;
 
     public Principal(ArtistaRepository repositorioArtista, MusicaRepository repositorioMusica) {
         this.repositorioMusica = repositorioMusica;
@@ -29,7 +25,7 @@ public class Principal {
 
     public void exibirMenu() {
         var opcao = -1;
-        while (opcao != 0) {
+        while (opcao != 9) {
             var menu = """
                     1- Cadastrar artistas
                     
@@ -59,7 +55,7 @@ public class Principal {
                 case 4:
                     listarMusicasPorArtistas();
                     break;
-                case 0:
+                case 9:
                     System.out.println("Saindo...");
                     break;
                 default:
@@ -68,24 +64,18 @@ public class Principal {
         }
     }
 
-    private void listarMusicasPorArtistas() {
-
-    }
 
     private void cadastrarMusica() {
 
         System.out.println("Informe o nome da musica: ");
         String nomeMusica = leitura.nextLine();
 
-        System.out.println("Artistas cadastrados: ");
-        listarArtistaBuscados().stream()
-                .map(a -> a.getNome())
-                .forEach(System.out::println);
+        listarArtistasPorNome();
 
         System.out.println("Informe o artista: ");
         String artista = leitura.nextLine();
 
-        Optional<Artista> filtroArtista = repositorioArtista.findByNome(artista);
+        filtroArtista = repositorioArtista.findByNomeIgnoreCase(artista);
 
         if (filtroArtista.isEmpty()) {
             System.out.println("Artista não encontrado");
@@ -96,6 +86,7 @@ public class Principal {
 
         System.out.println("Informe a duração da música: ");
         Double duracao = leitura.nextDouble();
+        leitura.nextLine();
 
         Musica musica = new Musica(nomeMusica, artistaFiltroFinal, duracao);
 
@@ -109,9 +100,6 @@ public class Principal {
         }
     }
 
-    private void listarMusicas() {
-
-    }
 
     private void cadastrarArtista() {
         System.out.println("Informe o nome do artista: ");
@@ -132,10 +120,54 @@ public class Principal {
 
     }
 
+    private void listarMusicas() {
+        System.out.println("\nMúsicas cadastradas: ");
+        List<Musica> musicas = repositorioMusica.findAll();
+        musicas.stream()
+                .sorted(Comparator.comparing(Musica::getTitulo))
+                .map(m -> m.getTitulo())
+                .forEach(System.out::println);
+    }
+
     private List<Artista> listarArtistaBuscados() {
         List<Artista> artistas = repositorioArtista.findAll();
         artistas.stream()
                 .sorted(Comparator.comparing(Artista::getNome));
         return artistas;
     }
+
+    private void listarArtistasPorNome() {
+        System.out.println("Artistas cadastrados: ");
+        listarArtistaBuscados().stream()
+                .map(a -> a.getNome())
+                .forEach(System.out::println);
+    }
+
+    private void listarMusicasPorArtistas() {
+        listarArtistasPorNome();
+        System.out.println("Qual o artista você quer pesquisar?");
+
+        String artista = leitura.nextLine();
+
+        filtroArtista = repositorioArtista.findByNomeIgnoreCase(artista);
+
+        if (filtroArtista.isEmpty()) {
+            System.out.println("Artista não encontrado!!");
+            exibirMenu();
+        }
+
+        List<Musica> musicasPorArtista = repositorioMusica.buscarMusicaPorArtista(artista);
+
+        System.out.println("Músicas do artista " + artista + ": ");
+        musicasPorArtista.stream()
+                .map(musica -> musica.getTitulo())
+                .forEach(System.out::println);
+
+        System.out.println("Ver outro artista?(S/N)");
+        String verOutraMusica = leitura.nextLine();
+        if (verOutraMusica.equalsIgnoreCase("S")) {
+            listarMusicasPorArtistas();
+        }
+    }
+
 }
