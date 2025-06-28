@@ -1,3 +1,4 @@
+/*
 package br.com.alura.screenmatch;
 
 import br.com.alura.screenmatch.principal.Principal;
@@ -8,17 +9,19 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ScreenmatchApplication implements CommandLineRunner {
-	@Autowired
+public class ScreenmatchApplicationSemWeb implements CommandLineRunner {
+
+    @Autowired
 	private SerieRepository repositorio;
 
-	public static void main(String[] args) {
-		SpringApplication.run(ScreenmatchApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ScreenmatchApplicationSemWeb.class, args);
+    }
 
-	@Override
-	public void run(String... args) throws Exception {
-		Principal principal = new Principal(repositorio);
-		principal.exibeMenu();
-	}
+    @Override
+    public void run(String... args) throws Exception {
+        Principal principal = new Principal(repositorio);
+        principal.exibeMenu();
+    }
 }
+*/
