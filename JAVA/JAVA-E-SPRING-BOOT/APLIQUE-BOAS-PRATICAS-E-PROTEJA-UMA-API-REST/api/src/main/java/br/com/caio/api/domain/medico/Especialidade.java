@@ -1,4 +1,4 @@
-package br.com.caio.api.medico;
+package br.com.caio.api.domain.medico;
 
 public enum Especialidade {
     ORTOPEDIA,

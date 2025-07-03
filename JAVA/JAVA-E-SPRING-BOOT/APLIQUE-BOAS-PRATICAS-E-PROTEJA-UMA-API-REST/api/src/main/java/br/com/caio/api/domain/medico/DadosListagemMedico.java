@@ -1,4 +1,4 @@
-package br.com.caio.api.medico;
+package br.com.caio.api.domain.medico;
 
 public record DadosListagemMedico(
         Long id,

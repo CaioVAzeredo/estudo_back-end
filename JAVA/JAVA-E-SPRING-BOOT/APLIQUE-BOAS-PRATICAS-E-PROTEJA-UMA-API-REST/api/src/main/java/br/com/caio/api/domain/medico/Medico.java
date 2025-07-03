@@ -1,6 +1,6 @@
-package br.com.caio.api.medico;
+package br.com.caio.api.domain.medico;
 
-import br.com.caio.api.endereco.Endereco;
+import br.com.caio.api.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

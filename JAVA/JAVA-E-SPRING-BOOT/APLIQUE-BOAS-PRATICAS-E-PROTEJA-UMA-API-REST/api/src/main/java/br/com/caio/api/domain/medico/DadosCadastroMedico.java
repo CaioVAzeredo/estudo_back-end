@@ -1,6 +1,6 @@
-package br.com.caio.api.medico;
+package br.com.caio.api.domain.medico;
 
-import br.com.caio.api.endereco.DadosEndereco;
+import br.com.caio.api.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
