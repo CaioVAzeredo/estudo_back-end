@@ -1,4 +1,4 @@
-package br.com.caio.api.infra;
+package br.com.caio.api.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
