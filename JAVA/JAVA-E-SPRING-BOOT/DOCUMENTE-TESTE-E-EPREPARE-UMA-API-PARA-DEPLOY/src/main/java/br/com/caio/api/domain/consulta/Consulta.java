@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
 @Entity(name = "Consulta")
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Consulta {
 
@@ -29,8 +28,18 @@ public class Consulta {
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
 
+    @Column(nullable = false)
+    @NotNull(message = "Data é obrigatória")
+    @Future(message = "Data deve ser no futuro")
     private LocalDateTime data;
 
-    public Consulta(Long id, Medico medico, Paciente paciente, @NotNull @Future LocalDateTime data) {
+    // Construtor principal
+    public Consulta(Long id, Medico medico, Paciente paciente, LocalDateTime data) {
+        if (data == null) {
+            throw new IllegalArgumentException("Data da consulta não pode ser nula");
+        }
+        this.medico = medico;
+        this.paciente = paciente;
+        this.data = data;
     }
 }

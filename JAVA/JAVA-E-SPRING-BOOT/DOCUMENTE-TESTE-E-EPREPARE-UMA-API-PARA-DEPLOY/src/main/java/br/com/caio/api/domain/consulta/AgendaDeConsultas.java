@@ -28,7 +28,9 @@ public class AgendaDeConsultas {
     @Autowired //lista de validadores onde tudo que for extends de da interface ValidadorAgendamentoDeConsulta, vai para essa lista.
     private List<ValidadorAgendamentoDeConsulta> validadores;
 
-    public void agendar(DadosAgendamentoConsulta dados) {
+
+
+    public DadosDetalhamentoConsulta agendar(DadosAgendamentoConsulta dados) {
         if(!pacienteRepository.existsById(dados.idPaciente())){
             throw new ValidacaoException("Id do paciente informado não existente!");
         }
@@ -44,9 +46,14 @@ public class AgendaDeConsultas {
 
         var consulta = new Consulta(null, medico, paciente, dados.data());
         consultaRepository.save(consulta);
+
+        return new DadosDetalhamentoConsulta(consulta);
     }
 
     private Medico escolherMedico(DadosAgendamentoConsulta dados) {
-
+    if(dados.idMedico() != null){
+        return medicoRepository.getReferenceById(dados.idMedico());
+    }
+    return null;
     }
 }
