@@ -25,17 +25,16 @@ public class AgendaDeConsultas {
     @Autowired
     private PacienteRepository pacienteRepository;
 
-    @Autowired //lista de validadores onde tudo que for extends de da interface ValidadorAgendamentoDeConsulta, vai para essa lista.
+    @Autowired
+    //lista de validadores onde tudo que for extends de da interface ValidadorAgendamentoDeConsulta, vai para essa lista.
     private List<ValidadorAgendamentoDeConsulta> validadores;
 
-
-
     public DadosDetalhamentoConsulta agendar(DadosAgendamentoConsulta dados) {
-        if(!pacienteRepository.existsById(dados.idPaciente())){
+        if (!pacienteRepository.existsById(dados.idPaciente())) {
             throw new ValidacaoException("Id do paciente informado não existente!");
         }
 
-        if(dados.idMedico() != null && !medicoRepository.existsById(dados.idMedico())){
+        if (dados.idMedico() != null && !medicoRepository.existsById(dados.idMedico())) {
             throw new ValidacaoException("Id do médico informado não existe!");
         }
 
@@ -43,6 +42,9 @@ public class AgendaDeConsultas {
 
         var paciente = pacienteRepository.findById(dados.idPaciente()).get();
         var medico = escolherMedico(dados);
+        if(medico == null){
+            throw new ValidacaoException("Não existe médico disponível nessa data!");
+        }
 
         var consulta = new Consulta(null, medico, paciente, dados.data());
         consultaRepository.save(consulta);
@@ -51,9 +53,13 @@ public class AgendaDeConsultas {
     }
 
     private Medico escolherMedico(DadosAgendamentoConsulta dados) {
-    if(dados.idMedico() != null){
-        return medicoRepository.getReferenceById(dados.idMedico());
-    }
-    return null;
+        if (dados.idMedico() != null) {
+            return medicoRepository.getReferenceById(dados.idMedico());
+        }
+        if (dados.especialidade() == null) {
+            throw new ValidacaoException("Especialidade é obrigatória quando médico não for escolhido");
+        }
+
+        return medicoRepository.escolherMedicoAleatorioLivreNaData(dados.especialidade(), dados.data());
     }
 }

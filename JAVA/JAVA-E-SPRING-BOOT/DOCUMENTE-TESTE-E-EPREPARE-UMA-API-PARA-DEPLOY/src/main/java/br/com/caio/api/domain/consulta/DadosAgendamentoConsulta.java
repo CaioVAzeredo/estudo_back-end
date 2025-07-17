@@ -1,5 +1,6 @@
 package br.com.caio.api.domain.consulta;
 
+import br.com.caio.api.domain.medico.Especialidade;
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;
 
@@ -17,6 +18,9 @@ public record DadosAgendamentoConsulta(
 
         @NotNull
         @Future
-        LocalDateTime data
+        LocalDateTime data,
+
+        @NotNull
+        Especialidade especialidade
 ) {
 }

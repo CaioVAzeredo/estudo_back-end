@@ -1,9 +1,20 @@
 package br.com.caio.api.domain.paciente;
 
+import br.com.caio.api.domain.endereco.Endereco;
 import jakarta.persistence.*;
+import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
-@Entity(name = "Paciente")
+
 @Table(name = "pacientes")
+@Entity(name = "Paciente")
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(of = "id")
 public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,15 +23,17 @@ public class Paciente {
     private String nome;
     private String email;
     private String cpf;
-    private String logradouro;
-    private String bairro;
-    private String cep;
-    private String complemento;
-    private String numero;
-    private String uf;
-    private String cidade;
+
+    @Embedded
+    private Endereco endereco;
     private String telefone;
     private boolean ativo;
+
+
+    public Paciente(DadosCadastroPaciente dados) {
+        this.ativo = true;
+        this.nome = dados.nome();
+    }
 
     public Long getId() {
         return id;
@@ -54,62 +67,6 @@ public class Paciente {
         this.cpf = cpf;
     }
 
-    public String getLogradouro() {
-        return logradouro;
-    }
-
-    public void setLogradouro(String logradouro) {
-        this.logradouro = logradouro;
-    }
-
-    public String getBairro() {
-        return bairro;
-    }
-
-    public void setBairro(String bairro) {
-        this.bairro = bairro;
-    }
-
-    public String getCep() {
-        return cep;
-    }
-
-    public void setCep(String cep) {
-        this.cep = cep;
-    }
-
-    public String getComplemento() {
-        return complemento;
-    }
-
-    public void setComplemento(String complemento) {
-        this.complemento = complemento;
-    }
-
-    public String getNumero() {
-        return numero;
-    }
-
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-
-    public String getUf() {
-        return uf;
-    }
-
-    public void setUf(String uf) {
-        this.uf = uf;
-    }
-
-    public String getCidade() {
-        return cidade;
-    }
-
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
-    }
-
     public String getTelefone() {
         return telefone;
     }
@@ -124,5 +81,23 @@ public class Paciente {
 
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
+    }
+
+    public void atualizarInformacoes(@Valid DadosAtualizacaoPaciente dados){
+        if(dados.nome() != null){
+            this.nome = dados.nome();
+        }
+
+        if (dados.telefone() != null){
+            this.telefone = dados.telefone();
+        }
+
+        if(dados.endereco() != null){
+            this.endereco.atualizarEndereco(dados.endereco());
+        }
+    }
+
+    public void excluir(){
+        this.ativo = false;
     }
 }
