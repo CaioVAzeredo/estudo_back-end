@@ -22,6 +22,8 @@ public class Paciente {
 
     private String nome;
     private String email;
+
+    @Column(nullable = false)
     private String cpf;
 
     @Embedded
@@ -33,6 +35,10 @@ public class Paciente {
     public Paciente(DadosCadastroPaciente dados) {
         this.ativo = true;
         this.nome = dados.nome();
+        this.cpf = dados.cpf();
+        this.email = dados.email();
+        this.endereco = new Endereco(dados.endereco());
+        this.telefone = dados.telefone();
     }
 
     public Long getId() {

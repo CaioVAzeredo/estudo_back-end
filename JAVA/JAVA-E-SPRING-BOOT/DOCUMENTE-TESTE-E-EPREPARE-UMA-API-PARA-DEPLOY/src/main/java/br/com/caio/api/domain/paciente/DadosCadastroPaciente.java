@@ -1,5 +1,6 @@
 package br.com.caio.api.domain.paciente;
 
+import br.com.caio.api.domain.endereco.DadosEndereco;
 import br.com.caio.api.domain.endereco.Endereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
@@ -15,15 +16,16 @@ public record DadosCadastroPaciente(
         @Email
         String email,
 
+        @NotNull
+        String telefone,
+
         @NotBlank
-        @Pattern(regexp = "\\d{12}")
+        @Pattern(regexp = "\\d{11}")
         String cpf,
+
 
         @NotNull
         @Valid
-        String telefone,
-
-        @NotNull
-        Endereco dadosEndereco
+        DadosEndereco endereco
         ) {
 }
